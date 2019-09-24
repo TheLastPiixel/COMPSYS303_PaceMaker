@@ -1,0 +1,11 @@
+19:13:04 **** Incremental Build of configuration Nios II for project pacemaker_v1 ****
+make all 
+/usr/bin/sh: line 0: cd: ../pacemaker_v1_bsp/: No such file or directory
+/usr/bin/sh: line 0: cd: ../../: No such file or directory
+Info: Building ../pacemaker_v1_bsp/
+C:/intelFPGA/16.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../pacemaker_v1_bsp/
+[BSP build complete]
+make: *** No rule to make target `C:/Windows/pacemaker.c', needed by `obj/default//C/Windows/pacemaker.o'.  Stop.
+
+19:13:08 Build Finished (took 4s.80ms)
+

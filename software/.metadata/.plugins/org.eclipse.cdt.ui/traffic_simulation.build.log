@@ -1,0 +1,12 @@
+18:57:56 **** Incremental Build of configuration Nios II for project traffic_simulation ****
+make all 
+/usr/bin/sh: line 0: cd: ../traffic_simulation_bsp/: No such file or directory
+/usr/bin/sh: line 0: cd: ../../: No such file or directory
+Info: Building ../traffic_simulation_bsp/
+C:/intelFPGA/16.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../traffic_simulation_bsp/
+makefile:564: Warning: SOPC File ../../QSYS.sopcinfo could not be found.
+[BSP build complete]
+[traffic_simulation build complete]
+
+18:58:00 Build Finished (took 3s.947ms)
+

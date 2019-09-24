@@ -1,0 +1,7 @@
+18:53:46 **** Build of configuration Nios II for project traffic_simulation_bsp ****
+make all 
+makefile:564: Warning: SOPC File ../../QSYS.sopcinfo could not be found.
+[BSP build complete]
+
+18:53:52 Build Finished (took 5s.911ms)
+
