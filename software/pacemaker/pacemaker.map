@@ -1,0 +1,1687 @@
+Archive member included to satisfy reference by file (symbol)
+
+../pacemaker_bsp/\libhal_bsp.a(alt_alarm_start.o)
+                              obj/default/main.o (alt_alarm_start)
+../pacemaker_bsp/\libhal_bsp.a(alt_load.o)
+                              ../pacemaker_bsp//obj/HAL/src/crt0.o (alt_load)
+../pacemaker_bsp/\libhal_bsp.a(alt_main.o)
+                              ../pacemaker_bsp//obj/HAL/src/crt0.o (alt_main)
+../pacemaker_bsp/\libhal_bsp.a(alt_tick.o)
+                              ../pacemaker_bsp/\libhal_bsp.a(alt_alarm_start.o) (_alt_tick_rate)
+../pacemaker_bsp/\libhal_bsp.a(alt_sys_init.o)
+                              ../pacemaker_bsp/\libhal_bsp.a(alt_main.o) (alt_irq_init)
+../pacemaker_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+                              ../pacemaker_bsp/\libhal_bsp.a(alt_sys_init.o) (altera_avalon_jtag_uart_read_fd)
+../pacemaker_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_init.o)
+                              ../pacemaker_bsp/\libhal_bsp.a(alt_sys_init.o) (altera_avalon_jtag_uart_init)
+../pacemaker_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_ioctl.o)
+                              ../pacemaker_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o) (altera_avalon_jtag_uart_ioctl)
+../pacemaker_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+                              ../pacemaker_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o) (altera_avalon_jtag_uart_read)
+../pacemaker_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+                              ../pacemaker_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o) (altera_avalon_jtag_uart_write)
+../pacemaker_bsp/\libhal_bsp.a(altera_avalon_lcd_16207.o)
+                              ../pacemaker_bsp/\libhal_bsp.a(alt_sys_init.o) (altera_avalon_lcd_16207_init)
+../pacemaker_bsp/\libhal_bsp.a(altera_avalon_lcd_16207_fd.o)
+                              ../pacemaker_bsp/\libhal_bsp.a(alt_sys_init.o) (altera_avalon_lcd_16207_write_fd)
+../pacemaker_bsp/\libhal_bsp.a(altera_avalon_timer_sc.o)
+                              ../pacemaker_bsp/\libhal_bsp.a(alt_sys_init.o) (alt_avalon_timer_sc_init)
+../pacemaker_bsp/\libhal_bsp.a(altera_avalon_uart_fd.o)
+                              ../pacemaker_bsp/\libhal_bsp.a(alt_sys_init.o) (altera_avalon_uart_read_fd)
+../pacemaker_bsp/\libhal_bsp.a(altera_avalon_uart_init.o)
+                              ../pacemaker_bsp/\libhal_bsp.a(alt_sys_init.o) (altera_avalon_uart_init)
+../pacemaker_bsp/\libhal_bsp.a(altera_avalon_uart_read.o)
+                              ../pacemaker_bsp/\libhal_bsp.a(altera_avalon_uart_fd.o) (altera_avalon_uart_read)
+../pacemaker_bsp/\libhal_bsp.a(altera_avalon_uart_write.o)
+                              ../pacemaker_bsp/\libhal_bsp.a(altera_avalon_uart_fd.o) (altera_avalon_uart_write)
+../pacemaker_bsp/\libhal_bsp.a(alt_close.o)
+                              ../pacemaker_bsp/\libhal_bsp.a(alt_main.o) (close)
+../pacemaker_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+                              ../pacemaker_bsp/\libhal_bsp.a(alt_load.o) (alt_dcache_flush_all)
+../pacemaker_bsp/\libhal_bsp.a(alt_dev.o)
+                              ../pacemaker_bsp/\libhal_bsp.a(alt_sys_init.o) (alt_dev_list)
+../pacemaker_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+                              ../pacemaker_bsp/\libhal_bsp.a(alt_sys_init.o) (alt_dev_llist_insert)
+../pacemaker_bsp/\libhal_bsp.a(alt_do_ctors.o)
+                              ../pacemaker_bsp/\libhal_bsp.a(alt_main.o) (_do_ctors)
+../pacemaker_bsp/\libhal_bsp.a(alt_do_dtors.o)
+                              ../pacemaker_bsp/\libhal_bsp.a(alt_main.o) (_do_dtors)
+../pacemaker_bsp/\libhal_bsp.a(alt_errno.o)
+                              ../pacemaker_bsp/\libhal_bsp.a(altera_avalon_uart_read.o) (alt_errno)
+../pacemaker_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+                              ../pacemaker_bsp/\libhal_bsp.a(alt_load.o) (alt_icache_flush_all)
+../pacemaker_bsp/\libhal_bsp.a(alt_iic.o)
+                              ../pacemaker_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_init.o) (alt_ic_isr_register)
+../pacemaker_bsp/\libhal_bsp.a(alt_iic_isr_register.o)
+                              ../pacemaker_bsp/\libhal_bsp.a(alt_iic.o) (alt_iic_isr_register)
+../pacemaker_bsp/\libhal_bsp.a(alt_io_redirect.o)
+                              ../pacemaker_bsp/\libhal_bsp.a(alt_main.o) (alt_io_redirect)
+../pacemaker_bsp/\libhal_bsp.a(alt_irq_entry.o)
+                              ../pacemaker_bsp/\libhal_bsp.a(alt_iic_isr_register.o) (alt_irq_entry)
+../pacemaker_bsp/\libhal_bsp.a(alt_irq_handler.o)
+                              ../pacemaker_bsp/\libhal_bsp.a(alt_iic_isr_register.o) (alt_irq)
+../pacemaker_bsp/\libhal_bsp.a(alt_irq_vars.o)
+                              ../pacemaker_bsp/\libhal_bsp.a(alt_iic.o) (alt_irq_active)
+../pacemaker_bsp/\libhal_bsp.a(alt_open.o)
+                              ../pacemaker_bsp/\libhal_bsp.a(alt_io_redirect.o) (open)
+../pacemaker_bsp/\libhal_bsp.a(alt_release_fd.o)
+                              ../pacemaker_bsp/\libhal_bsp.a(alt_close.o) (alt_release_fd)
+../pacemaker_bsp/\libhal_bsp.a(alt_usleep.o)
+                              ../pacemaker_bsp/\libhal_bsp.a(altera_avalon_lcd_16207.o) (usleep)
+../pacemaker_bsp/\libhal_bsp.a(altera_nios2_gen2_irq.o)
+                              ../pacemaker_bsp/\libhal_bsp.a(alt_sys_init.o) (altera_nios2_gen2_irq_init)
+../pacemaker_bsp/\libhal_bsp.a(alt_busy_sleep.o)
+                              ../pacemaker_bsp/\libhal_bsp.a(alt_usleep.o) (alt_busy_sleep)
+../pacemaker_bsp/\libhal_bsp.a(alt_exception_entry.o)
+                              ../pacemaker_bsp/\libhal_bsp.a(alt_irq_entry.o) (alt_exception)
+../pacemaker_bsp/\libhal_bsp.a(alt_find_dev.o)
+                              ../pacemaker_bsp/\libhal_bsp.a(alt_open.o) (alt_find_dev)
+../pacemaker_bsp/\libhal_bsp.a(alt_find_file.o)
+                              ../pacemaker_bsp/\libhal_bsp.a(alt_open.o) (alt_find_file)
+../pacemaker_bsp/\libhal_bsp.a(alt_get_fd.o)
+                              ../pacemaker_bsp/\libhal_bsp.a(alt_open.o) (alt_get_fd)
+../pacemaker_bsp/\libhal_bsp.a(alt_icache_flush.o)
+                              ../pacemaker_bsp/\libhal_bsp.a(alt_icache_flush_all.o) (alt_icache_flush)
+../pacemaker_bsp/\libhal_bsp.a(alt_instruction_exception_entry.o)
+                              ../pacemaker_bsp/\libhal_bsp.a(alt_exception_entry.o) (alt_instruction_exception_entry)
+c:/intelfpga/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-atexit.o)
+                              ../pacemaker_bsp/\libhal_bsp.a(alt_main.o) (atexit)
+c:/intelfpga/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-ctype_.o)
+                              ../pacemaker_bsp/\libhal_bsp.a(altera_avalon_lcd_16207.o) (__ctype_ptr__)
+c:/intelfpga/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-exit.o)
+                              ../pacemaker_bsp/\libhal_bsp.a(alt_main.o) (exit)
+c:/intelfpga/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-impure.o)
+                              c:/intelfpga/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-exit.o) (_global_impure_ptr)
+c:/intelfpga/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-int_errno.o)
+                              ../pacemaker_bsp/\libhal_bsp.a(altera_avalon_uart_read.o) (errno)
+c:/intelfpga/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memcmp.o)
+                              ../pacemaker_bsp/\libhal_bsp.a(alt_find_dev.o) (memcmp)
+c:/intelfpga/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memcpy.o)
+                              ../pacemaker_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o) (memcpy)
+c:/intelfpga/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memset.o)
+                              ../pacemaker_bsp/\libhal_bsp.a(altera_avalon_lcd_16207.o) (memset)
+c:/intelfpga/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-strlen.o)
+                              ../pacemaker_bsp/\libhal_bsp.a(alt_find_dev.o) (strlen)
+c:/intelfpga/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-__atexit.o)
+                              c:/intelfpga/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-atexit.o) (__register_exitproc)
+c:/intelfpga/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-__call_atexit.o)
+                              c:/intelfpga/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-exit.o) (__call_exitprocs)
+c:/intelfpga/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(lib2-divmod.o)
+                              ../pacemaker_bsp/\libhal_bsp.a(altera_avalon_lcd_16207.o) (__divsi3)
+../pacemaker_bsp/\libhal_bsp.a(alt_exit.o)
+                              c:/intelfpga/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-exit.o) (_exit)
+
+Allocating common symbols
+Common symbol       size              file
+
+_cg42               0x1               obj/default/pacemaker.o
+g83                 0x1               obj/default/pacemaker.o
+g40                 0x1               obj/default/pacemaker.o
+g91                 0x1               obj/default/pacemaker.o
+alt_irq             0x100             ../pacemaker_bsp/\libhal_bsp.a(alt_irq_handler.o)
+g4                  0x1               obj/default/pacemaker.o
+g62b                0x1               obj/default/pacemaker.o
+g19                 0x1               obj/default/pacemaker.o
+t_lri               0x4               obj/default/pacemaker.o
+g97_fix0            0x1               obj/default/pacemaker.o
+g55                 0x1               obj/default/pacemaker.o
+PRE_g51             0x1               obj/default/pacemaker.o
+g27                 0x1               obj/default/pacemaker.o
+to_lri              0x4               obj/default/pacemaker.o
+g78b                0x1               obj/default/pacemaker.o
+g3                  0x1               obj/default/pacemaker.o
+g31b                0x1               obj/default/pacemaker.o
+PRE_g27             0x1               obj/default/pacemaker.o
+g47                 0x1               obj/default/pacemaker.o
+g85                 0x1               obj/default/pacemaker.o
+g42                 0x1               obj/default/pacemaker.o
+LRI_p               0x1               obj/default/pacemaker.o
+g9                  0x1               obj/default/pacemaker.o
+timer               0x18              obj/default/main.o
+_cg7                0x1               obj/default/pacemaker.o
+_PRE_GO             0x4               obj/default/pacemaker.o
+PRE_g3              0x1               obj/default/pacemaker.o
+t_aei               0x4               obj/default/pacemaker.o
+_cg52               0x1               obj/default/pacemaker.o
+buttonValue         0x4               obj/default/main.o
+errno               0x4               c:/intelfpga/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-int_errno.o)
+g87                 0x1               obj/default/pacemaker.o
+g44                 0x1               obj/default/pacemaker.o
+g52b                0x1               obj/default/pacemaker.o
+_cg75               0x1               obj/default/pacemaker.o
+_cg8                0x1               obj/default/pacemaker.o
+_cg45               0x1               obj/default/pacemaker.o
+g92                 0x1               obj/default/pacemaker.o
+g1                  0x1               obj/default/pacemaker.o
+g61                 0x1               obj/default/pacemaker.o
+g71                 0x1               obj/default/pacemaker.o
+LRI                 0x1               obj/default/pacemaker.o
+g82                 0x1               obj/default/pacemaker.o
+g12                 0x1               obj/default/pacemaker.o
+g97                 0x1               obj/default/pacemaker.o
+g52                 0x1               obj/default/pacemaker.o
+to_uri              0x4               obj/default/pacemaker.o
+_cg85               0x1               obj/default/pacemaker.o
+g17                 0x1               obj/default/pacemaker.o
+PRE_g77             0x1               obj/default/pacemaker.o
+g76                 0x1               obj/default/pacemaker.o
+g31                 0x1               obj/default/pacemaker.o
+g37                 0x1               obj/default/pacemaker.o
+g62                 0x1               obj/default/pacemaker.o
+g84                 0x1               obj/default/pacemaker.o
+g41                 0x1               obj/default/pacemaker.o
+g24_e2              0x1               obj/default/pacemaker.o
+AVI_p               0x1               obj/default/pacemaker.o
+_cg34               0x1               obj/default/pacemaker.o
+g18                 0x1               obj/default/pacemaker.o
+ap                  0x1               obj/default/pacemaker.o
+PRE_g10             0x1               obj/default/pacemaker.o
+g48                 0x1               obj/default/pacemaker.o
+t_vrp               0x4               obj/default/pacemaker.o
+_cg95               0x1               obj/default/pacemaker.o
+g38                 0x1               obj/default/pacemaker.o
+g75b                0x1               obj/default/pacemaker.o
+_cg20               0x1               obj/default/pacemaker.o
+g42b                0x1               obj/default/pacemaker.o
+_cg82               0x1               obj/default/pacemaker.o
+URI_p               0x1               obj/default/pacemaker.o
+_cg28               0x1               obj/default/pacemaker.o
+g64                 0x1               obj/default/pacemaker.o
+g21                 0x1               obj/default/pacemaker.o
+URI                 0x1               obj/default/pacemaker.o
+t_avi               0x4               obj/default/pacemaker.o
+_cg68               0x1               obj/default/pacemaker.o
+g79                 0x1               obj/default/pacemaker.o
+g34                 0x1               obj/default/pacemaker.o
+g5                  0x1               obj/default/pacemaker.o
+g94                 0x1               obj/default/pacemaker.o
+g49                 0x1               obj/default/pacemaker.o
+g2                  0x1               obj/default/pacemaker.o
+g7                  0x1               obj/default/pacemaker.o
+_cg90               0x1               obj/default/pacemaker.o
+_cg16               0x1               obj/default/pacemaker.o
+g80                 0x1               obj/default/pacemaker.o
+AVI                 0x1               obj/default/pacemaker.o
+vp_accept           0x1               obj/default/pacemaker.o
+g59                 0x1               obj/default/pacemaker.o
+g54                 0x1               obj/default/pacemaker.o
+g66                 0x1               obj/default/pacemaker.o
+g23                 0x1               obj/default/pacemaker.o
+t_uri               0x4               obj/default/pacemaker.o
+g14                 0x1               obj/default/pacemaker.o
+PRE_g36             0x1               obj/default/pacemaker.o
+PRE_g84             0x1               obj/default/pacemaker.o
+g56                 0x1               obj/default/pacemaker.o
+PRE_g18             0x1               obj/default/pacemaker.o
+PRE_g6              0x1               obj/default/pacemaker.o
+g78                 0x1               obj/default/pacemaker.o
+g33                 0x1               obj/default/pacemaker.o
+as                  0x1               obj/default/pacemaker.o
+timeCount           0x4               obj/default/main.o
+g28b                0x1               obj/default/pacemaker.o
+PRE_g22             0x1               obj/default/pacemaker.o
+g58_e5              0x1               obj/default/pacemaker.o
+g35                 0x1               obj/default/pacemaker.o
+_cg71               0x1               obj/default/pacemaker.o
+g15                 0x1               obj/default/pacemaker.o
+g90                 0x1               obj/default/pacemaker.o
+_GO                 0x1               obj/default/pacemaker.o
+PRE_g54             0x1               obj/default/pacemaker.o
+g38_e3              0x1               obj/default/pacemaker.o
+g63                 0x1               obj/default/pacemaker.o
+g20                 0x1               obj/default/pacemaker.o
+g60                 0x1               obj/default/pacemaker.o
+to_aei              0x4               obj/default/pacemaker.o
+g93                 0x1               obj/default/pacemaker.o
+AEI                 0x1               obj/default/pacemaker.o
+vs_accept           0x1               obj/default/pacemaker.o
+g12_e1              0x1               obj/default/pacemaker.o
+g48_e4              0x1               obj/default/pacemaker.o
+g86                 0x1               obj/default/pacemaker.o
+g43                 0x1               obj/default/pacemaker.o
+to_pvarp            0x4               obj/default/pacemaker.o
+_cg65               0x1               obj/default/pacemaker.o
+VRP                 0x1               obj/default/pacemaker.o
+_cg11               0x1               obj/default/pacemaker.o
+g36                 0x1               obj/default/pacemaker.o
+g89                 0x1               obj/default/pacemaker.o
+g46                 0x1               obj/default/pacemaker.o
+vs                  0x1               obj/default/pacemaker.o
+vp                  0x1               obj/default/pacemaker.o
+g95                 0x1               obj/default/pacemaker.o
+g50                 0x1               obj/default/pacemaker.o
+g96                 0x1               obj/default/pacemaker.o
+g51                 0x1               obj/default/pacemaker.o
+g96_e8              0x1               obj/default/pacemaker.o
+_cg37               0x1               obj/default/pacemaker.o
+PRE_g74             0x1               obj/default/pacemaker.o
+g86_e7              0x1               obj/default/pacemaker.o
+_cg78               0x1               obj/default/pacemaker.o
+t_pvarp             0x4               obj/default/pacemaker.o
+_cg80               0x1               obj/default/pacemaker.o
+PRE_g61             0x1               obj/default/pacemaker.o
+ap_accept           0x1               obj/default/pacemaker.o
+g13                 0x1               obj/default/pacemaker.o
+PRE_g41             0x1               obj/default/pacemaker.o
+g53                 0x1               obj/default/pacemaker.o
+g8                  0x1               obj/default/pacemaker.o
+g57                 0x1               obj/default/pacemaker.o
+PRE_g89             0x1               obj/default/pacemaker.o
+PRE_g44             0x1               obj/default/pacemaker.o
+g70                 0x1               obj/default/pacemaker.o
+_cg47               0x1               obj/default/pacemaker.o
+g6                  0x1               obj/default/pacemaker.o
+_cg93               0x1               obj/default/pacemaker.o
+_cg19               0x1               obj/default/pacemaker.o
+g72                 0x1               obj/default/pacemaker.o
+g81                 0x1               obj/default/pacemaker.o
+g0                  0x1               obj/default/pacemaker.o
+g75                 0x1               obj/default/pacemaker.o
+g30                 0x1               obj/default/pacemaker.o
+PRE_g15             0x1               obj/default/pacemaker.o
+g16                 0x1               obj/default/pacemaker.o
+g58                 0x1               obj/default/pacemaker.o
+_cg57               0x1               obj/default/pacemaker.o
+g68                 0x1               obj/default/pacemaker.o
+g25                 0x1               obj/default/pacemaker.o
+g90b                0x1               obj/default/pacemaker.o
+g11                 0x1               obj/default/pacemaker.o
+g65                 0x1               obj/default/pacemaker.o
+g22                 0x1               obj/default/pacemaker.o
+g72_e6              0x1               obj/default/pacemaker.o
+g28                 0x1               obj/default/pacemaker.o
+g73                 0x1               obj/default/pacemaker.o
+AEI_p               0x1               obj/default/pacemaker.o
+g16b                0x1               obj/default/pacemaker.o
+PVARP               0x1               obj/default/pacemaker.o
+g77                 0x1               obj/default/pacemaker.o
+g32                 0x1               obj/default/pacemaker.o
+to_avi              0x4               obj/default/pacemaker.o
+g88                 0x1               obj/default/pacemaker.o
+g45                 0x1               obj/default/pacemaker.o
+_cg23               0x1               obj/default/pacemaker.o
+_cg55               0x1               obj/default/pacemaker.o
+PRE_g64             0x1               obj/default/pacemaker.o
+PRE_g70             0x1               obj/default/pacemaker.o
+PRE_g30             0x1               obj/default/pacemaker.o
+g39                 0x1               obj/default/pacemaker.o
+g29                 0x1               obj/default/pacemaker.o
+_cg4                0x1               obj/default/pacemaker.o
+g67                 0x1               obj/default/pacemaker.o
+g24                 0x1               obj/default/pacemaker.o
+timerContext        0x4               obj/default/main.o
+_cg32               0x1               obj/default/pacemaker.o
+PRE_g92             0x1               obj/default/pacemaker.o
+g4b                 0x1               obj/default/pacemaker.o
+_cg67               0x1               obj/default/pacemaker.o
+_cg31               0x1               obj/default/pacemaker.o
+g10                 0x1               obj/default/pacemaker.o
+_cg62               0x1               obj/default/pacemaker.o
+g69                 0x1               obj/default/pacemaker.o
+g26                 0x1               obj/default/pacemaker.o
+as_accept           0x1               obj/default/pacemaker.o
+to_vrp              0x4               obj/default/pacemaker.o
+g74                 0x1               obj/default/pacemaker.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+reset            0x0000000000800000 0x0000000000000020
+sdram            0x0000000000800020 0x00000000007fffe0
+onchip_mem       0x0000000001008000 0x0000000000007800
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD ../pacemaker_bsp//obj/HAL/src/crt0.o
+LOAD obj/default/main.o
+LOAD obj/default/pacemaker.o
+LOAD c:/intelfpga/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libstdc++.a
+LOAD c:/intelfpga/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libm.a
+LOAD c:/intelfpga/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a
+START GROUP
+LOAD c:/intelfpga/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a
+LOAD c:/intelfpga/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a
+LOAD ../pacemaker_bsp/\libhal_bsp.a
+LOAD c:/intelfpga/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libm.a
+END GROUP
+LOAD c:/intelfpga/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a
+                0x0000000000800000                __alt_mem_sdram = 0x800000
+                0x0000000001008000                __alt_mem_onchip_mem = 0x1008000
+
+.entry          0x0000000000800000       0x20
+ *(.entry)
+ .entry         0x0000000000800000       0x20 ../pacemaker_bsp//obj/HAL/src/crt0.o
+                0x0000000000800000                __reset
+
+.exceptions     0x0000000000800020      0x224
+                0x0000000000800020                PROVIDE (__ram_exceptions_start, ABSOLUTE (.))
+                0x0000000000800020                . = ALIGN (0x20)
+ *(.irq)
+ *(.exceptions.entry.label)
+ .exceptions.entry.label
+                0x0000000000800020        0x0 ../pacemaker_bsp/\libhal_bsp.a(alt_irq_entry.o)
+                0x0000000000800020                alt_irq_entry
+ .exceptions.entry.label
+                0x0000000000800020        0x0 ../pacemaker_bsp/\libhal_bsp.a(alt_exception_entry.o)
+                0x0000000000800020                alt_exception
+ *(.exceptions.entry.user)
+ *(.exceptions.entry.ecc_fatal)
+ *(.exceptions.entry)
+ .exceptions.entry
+                0x0000000000800020       0x54 ../pacemaker_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ *(.exceptions.irqtest.user)
+ *(.exceptions.irqtest)
+ .exceptions.irqtest
+                0x0000000000800074       0x10 ../pacemaker_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ *(.exceptions.irqhandler.user)
+ *(.exceptions.irqhandler)
+ .exceptions.irqhandler
+                0x0000000000800084        0x4 ../pacemaker_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ *(.exceptions.irqreturn.user)
+ *(.exceptions.irqreturn)
+ .exceptions.irqreturn
+                0x0000000000800088        0x4 ../pacemaker_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ *(.exceptions.notirq.label)
+ .exceptions.notirq.label
+                0x000000000080008c        0x0 ../pacemaker_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ *(.exceptions.notirq.user)
+ *(.exceptions.notirq)
+ .exceptions.notirq
+                0x000000000080008c        0x8 ../pacemaker_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ *(.exceptions.soft.user)
+ *(.exceptions.soft)
+ *(.exceptions.unknown.user)
+ *(.exceptions.unknown)
+ .exceptions.unknown
+                0x0000000000800094       0x14 ../pacemaker_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ *(.exceptions.exit.label)
+ .exceptions.exit.label
+                0x00000000008000a8        0x0 ../pacemaker_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ .exceptions.exit.label
+                0x00000000008000a8        0x0 ../pacemaker_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ *(.exceptions.exit.user)
+ *(.exceptions.exit)
+ .exceptions.exit
+                0x00000000008000a8       0x54 ../pacemaker_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ *(.exceptions)
+ .exceptions    0x00000000008000fc       0xd4 ../pacemaker_bsp/\libhal_bsp.a(alt_irq_handler.o)
+                0x00000000008000fc                alt_irq_handler
+ .exceptions    0x00000000008001d0       0x74 ../pacemaker_bsp/\libhal_bsp.a(alt_instruction_exception_entry.o)
+                0x00000000008001d0                alt_instruction_exception_entry
+                0x0000000000800244                PROVIDE (__ram_exceptions_end, ABSOLUTE (.))
+                0x0000000000800020                PROVIDE (__flash_exceptions_start, LOADADDR (.exceptions))
+
+.text           0x0000000000800244     0x5ddc
+                [!provide]                        PROVIDE (stext, ABSOLUTE (.))
+ *(.interp)
+ *(.hash)
+ *(.dynsym)
+ *(.dynstr)
+ *(.gnu.version)
+ *(.gnu.version_d)
+ *(.gnu.version_r)
+ *(.rel.init)
+ *(.rela.init)
+ *(.rel.text .rel.text.* .rel.gnu.linkonce.t.*)
+ *(.rela.text .rela.text.* .rela.gnu.linkonce.t.*)
+ *(.rel.fini)
+ *(.rela.fini)
+ *(.rel.rodata .rel.rodata.* .rel.gnu.linkonce.r.*)
+ *(.rela.rodata .rela.rodata.* .rela.gnu.linkonce.r.*)
+ *(.rel.data .rel.data.* .rel.gnu.linkonce.d.*)
+ *(.rela.data .rela.data.* .rela.gnu.linkonce.d.*)
+ *(.rel.tdata .rel.tdata.* .rel.gnu.linkonce.td.*)
+ *(.rela.tdata .rela.tdata.* .rela.gnu.linkonce.td.*)
+ *(.rel.tbss .rel.tbss.* .rel.gnu.linkonce.tb.*)
+ *(.rela.tbss .rela.tbss.* .rela.gnu.linkonce.tb.*)
+ *(.rel.ctors)
+ *(.rela.ctors)
+ *(.rel.dtors)
+ *(.rela.dtors)
+ *(.rel.got)
+ *(.rela.got)
+ *(.rel.sdata .rel.sdata.* .rel.gnu.linkonce.s.*)
+ *(.rela.sdata .rela.sdata.* .rela.gnu.linkonce.s.*)
+ *(.rel.sbss .rel.sbss.* .rel.gnu.linkonce.sb.*)
+ *(.rela.sbss .rela.sbss.* .rela.gnu.linkonce.sb.*)
+ *(.rel.sdata2 .rel.sdata2.* .rel.gnu.linkonce.s2.*)
+ *(.rela.sdata2 .rela.sdata2.* .rela.gnu.linkonce.s2.*)
+ *(.rel.sbss2 .rel.sbss2.* .rel.gnu.linkonce.sb2.*)
+ *(.rela.sbss2 .rela.sbss2.* .rela.gnu.linkonce.sb2.*)
+ *(.rel.bss .rel.bss.* .rel.gnu.linkonce.b.*)
+ *(.rela.bss .rela.bss.* .rela.gnu.linkonce.b.*)
+ *(.rel.plt)
+ *(.rela.plt)
+ *(.rel.dyn)
+ *(.init)
+ *(.plt)
+ *(.text .stub .text.* .gnu.linkonce.t.*)
+ .text          0x0000000000800244       0x4c ../pacemaker_bsp//obj/HAL/src/crt0.o
+                0x0000000000800244                _start
+ .text          0x0000000000800290      0x298 obj/default/main.o
+                0x0000000000800290                timer_isr
+                0x00000000008002d0                main
+ .text          0x0000000000800528     0x1b5c obj/default/pacemaker.o
+                0x0000000000800528                reset
+                0x00000000008005a8                tick
+ .text          0x0000000000802084      0x12c ../pacemaker_bsp/\libhal_bsp.a(alt_alarm_start.o)
+                0x0000000000802084                alt_alarm_start
+ .text          0x00000000008021b0       0xec ../pacemaker_bsp/\libhal_bsp.a(alt_load.o)
+                0x0000000000802218                alt_load
+ .text          0x000000000080229c       0x7c ../pacemaker_bsp/\libhal_bsp.a(alt_main.o)
+                0x000000000080229c                alt_main
+ .text          0x0000000000802318      0x1a4 ../pacemaker_bsp/\libhal_bsp.a(alt_tick.o)
+                0x0000000000802318                alt_alarm_stop
+                0x00000000008023b4                alt_tick
+ .text          0x00000000008024bc      0x104 ../pacemaker_bsp/\libhal_bsp.a(alt_sys_init.o)
+                0x00000000008024f0                alt_irq_init
+                0x0000000000802528                alt_sys_init
+ .text          0x00000000008025c0      0x164 ../pacemaker_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+                0x00000000008025c0                altera_avalon_jtag_uart_read_fd
+                0x0000000000802620                altera_avalon_jtag_uart_write_fd
+                0x0000000000802680                altera_avalon_jtag_uart_close_fd
+                0x00000000008026d0                altera_avalon_jtag_uart_ioctl_fd
+ .text          0x0000000000802724      0x3d4 ../pacemaker_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_init.o)
+                0x0000000000802724                altera_avalon_jtag_uart_init
+                0x0000000000802a90                altera_avalon_jtag_uart_close
+ .text          0x0000000000802af8       0xf0 ../pacemaker_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_ioctl.o)
+                0x0000000000802af8                altera_avalon_jtag_uart_ioctl
+ .text          0x0000000000802be8      0x21c ../pacemaker_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+                0x0000000000802be8                altera_avalon_jtag_uart_read
+ .text          0x0000000000802e04      0x224 ../pacemaker_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+                0x0000000000802e04                altera_avalon_jtag_uart_write
+ .text          0x0000000000803028      0xe7c ../pacemaker_bsp/\libhal_bsp.a(altera_avalon_lcd_16207.o)
+                0x00000000008037ec                altera_avalon_lcd_16207_write
+                0x0000000000803d70                altera_avalon_lcd_16207_init
+ .text          0x0000000000803ea4       0x60 ../pacemaker_bsp/\libhal_bsp.a(altera_avalon_lcd_16207_fd.o)
+                0x0000000000803ea4                altera_avalon_lcd_16207_write_fd
+ .text          0x0000000000803f04       0xf4 ../pacemaker_bsp/\libhal_bsp.a(altera_avalon_timer_sc.o)
+                0x0000000000803f7c                alt_avalon_timer_sc_init
+ .text          0x0000000000803ff8      0x110 ../pacemaker_bsp/\libhal_bsp.a(altera_avalon_uart_fd.o)
+                0x0000000000803ff8                altera_avalon_uart_read_fd
+                0x0000000000804058                altera_avalon_uart_write_fd
+                0x00000000008040b8                altera_avalon_uart_close_fd
+ .text          0x0000000000804108      0x3c8 ../pacemaker_bsp/\libhal_bsp.a(altera_avalon_uart_init.o)
+                0x0000000000804108                altera_avalon_uart_init
+                0x000000000080447c                altera_avalon_uart_close
+ .text          0x00000000008044d0      0x218 ../pacemaker_bsp/\libhal_bsp.a(altera_avalon_uart_read.o)
+                0x000000000080450c                altera_avalon_uart_read
+ .text          0x00000000008046e8      0x1e8 ../pacemaker_bsp/\libhal_bsp.a(altera_avalon_uart_write.o)
+                0x0000000000804724                altera_avalon_uart_write
+ .text          0x00000000008048d0      0x10c ../pacemaker_bsp/\libhal_bsp.a(alt_close.o)
+                0x000000000080490c                close
+ .text          0x00000000008049dc       0x48 ../pacemaker_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+                0x00000000008049dc                alt_dcache_flush_all
+ .text          0x0000000000804a24       0x2c ../pacemaker_bsp/\libhal_bsp.a(alt_dev.o)
+ .text          0x0000000000804a50       0xe0 ../pacemaker_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+                0x0000000000804a8c                alt_dev_llist_insert
+ .text          0x0000000000804b30       0x60 ../pacemaker_bsp/\libhal_bsp.a(alt_do_ctors.o)
+                0x0000000000804b30                _do_ctors
+ .text          0x0000000000804b90       0x60 ../pacemaker_bsp/\libhal_bsp.a(alt_do_dtors.o)
+                0x0000000000804b90                _do_dtors
+ .text          0x0000000000804bf0        0x0 ../pacemaker_bsp/\libhal_bsp.a(alt_errno.o)
+ .text          0x0000000000804bf0       0x34 ../pacemaker_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+                0x0000000000804bf0                alt_icache_flush_all
+ .text          0x0000000000804c24      0x1b0 ../pacemaker_bsp/\libhal_bsp.a(alt_iic.o)
+                0x0000000000804c24                alt_ic_isr_register
+                0x0000000000804c74                alt_ic_irq_enable
+                0x0000000000804cfc                alt_ic_irq_disable
+                0x0000000000804d88                alt_ic_irq_enabled
+ .text          0x0000000000804dd4       0xf0 ../pacemaker_bsp/\libhal_bsp.a(alt_iic_isr_register.o)
+                0x0000000000804dd4                alt_iic_isr_register
+ .text          0x0000000000804ec4      0x140 ../pacemaker_bsp/\libhal_bsp.a(alt_io_redirect.o)
+                0x0000000000804f88                alt_io_redirect
+ .text          0x0000000000805004        0x0 ../pacemaker_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ .text          0x0000000000805004        0x0 ../pacemaker_bsp/\libhal_bsp.a(alt_irq_handler.o)
+ .text          0x0000000000805004        0x0 ../pacemaker_bsp/\libhal_bsp.a(alt_irq_vars.o)
+ .text          0x0000000000805004      0x254 ../pacemaker_bsp/\libhal_bsp.a(alt_open.o)
+                0x0000000000805104                open
+ .text          0x0000000000805258       0x64 ../pacemaker_bsp/\libhal_bsp.a(alt_release_fd.o)
+                0x0000000000805258                alt_release_fd
+ .text          0x00000000008052bc       0x30 ../pacemaker_bsp/\libhal_bsp.a(alt_usleep.o)
+                0x00000000008052bc                usleep
+ .text          0x00000000008052ec       0x24 ../pacemaker_bsp/\libhal_bsp.a(altera_nios2_gen2_irq.o)
+                0x00000000008052ec                altera_nios2_gen2_irq_init
+ .text          0x0000000000805310      0x158 ../pacemaker_bsp/\libhal_bsp.a(alt_busy_sleep.o)
+                0x0000000000805310                alt_busy_sleep
+ .text          0x0000000000805468        0x0 ../pacemaker_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ .text          0x0000000000805468       0x90 ../pacemaker_bsp/\libhal_bsp.a(alt_find_dev.o)
+                0x0000000000805468                alt_find_dev
+ .text          0x00000000008054f8      0x108 ../pacemaker_bsp/\libhal_bsp.a(alt_find_file.o)
+                0x00000000008054f8                alt_find_file
+ .text          0x0000000000805600       0xa4 ../pacemaker_bsp/\libhal_bsp.a(alt_get_fd.o)
+                0x0000000000805600                alt_get_fd
+ .text          0x00000000008056a4       0x90 ../pacemaker_bsp/\libhal_bsp.a(alt_icache_flush.o)
+                0x00000000008056a4                alt_icache_flush
+ .text          0x0000000000805734       0x9c ../pacemaker_bsp/\libhal_bsp.a(alt_instruction_exception_entry.o)
+                0x0000000000805734                alt_exception_cause_generated_bad_addr
+ .text          0x00000000008057d0        0x0 c:/intelfpga/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-atexit.o)
+ .text.atexit   0x00000000008057d0       0x14 c:/intelfpga/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-atexit.o)
+                0x00000000008057d0                atexit
+ .text          0x00000000008057e4        0x0 c:/intelfpga/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-ctype_.o)
+ .text          0x00000000008057e4        0x0 c:/intelfpga/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-exit.o)
+ .text.exit     0x00000000008057e4       0x38 c:/intelfpga/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-exit.o)
+                0x00000000008057e4                exit
+ .text          0x000000000080581c        0x0 c:/intelfpga/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-impure.o)
+ .text          0x000000000080581c        0x0 c:/intelfpga/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-int_errno.o)
+ .text          0x000000000080581c        0x0 c:/intelfpga/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memcmp.o)
+ .text.memcmp   0x000000000080581c       0x7c c:/intelfpga/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memcmp.o)
+                0x000000000080581c                memcmp
+ .text          0x0000000000805898        0x0 c:/intelfpga/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memcpy.o)
+ .text.memcpy   0x0000000000805898      0x148 c:/intelfpga/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memcpy.o)
+                0x0000000000805898                memcpy
+ .text          0x00000000008059e0        0x0 c:/intelfpga/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memset.o)
+ .text.memset   0x00000000008059e0      0x128 c:/intelfpga/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memset.o)
+                0x00000000008059e0                memset
+ .text          0x0000000000805b08        0x0 c:/intelfpga/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-strlen.o)
+ .text.strlen   0x0000000000805b08       0x98 c:/intelfpga/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-strlen.o)
+                0x0000000000805b08                strlen
+ .text          0x0000000000805ba0        0x0 c:/intelfpga/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-__atexit.o)
+ .text.__register_exitproc
+                0x0000000000805ba0      0x118 c:/intelfpga/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-__atexit.o)
+                0x0000000000805ba0                __register_exitproc
+ .text          0x0000000000805cb8        0x0 c:/intelfpga/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-__call_atexit.o)
+ .text.__call_exitprocs
+                0x0000000000805cb8      0x180 c:/intelfpga/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-__call_atexit.o)
+                0x0000000000805cb8                __call_exitprocs
+ .text          0x0000000000805e38      0x1b4 c:/intelfpga/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(lib2-divmod.o)
+                0x0000000000805e38                __divsi3
+                0x0000000000805ebc                __modsi3
+                0x0000000000805f30                __udivsi3
+                0x0000000000805f94                __umodsi3
+ .text          0x0000000000805fec       0x34 ../pacemaker_bsp/\libhal_bsp.a(alt_exit.o)
+                0x0000000000805fec                _exit
+ *(.gnu.warning.*)
+ *(.fini)
+                [!provide]                        PROVIDE (__etext, ABSOLUTE (.))
+                [!provide]                        PROVIDE (_etext, ABSOLUTE (.))
+                [!provide]                        PROVIDE (etext, ABSOLUTE (.))
+ *(.eh_frame_hdr)
+                0x0000000000806020                . = ALIGN (0x4)
+                [!provide]                        PROVIDE (__preinit_array_start, ABSOLUTE (.))
+ *(.preinit_array)
+                [!provide]                        PROVIDE (__preinit_array_end, ABSOLUTE (.))
+                [!provide]                        PROVIDE (__init_array_start, ABSOLUTE (.))
+ *(.init_array)
+                [!provide]                        PROVIDE (__init_array_end, ABSOLUTE (.))
+                [!provide]                        PROVIDE (__fini_array_start, ABSOLUTE (.))
+ *(.fini_array)
+                [!provide]                        PROVIDE (__fini_array_end, ABSOLUTE (.))
+ *(.eh_frame)
+ *(.gcc_except_table .gcc_except_table.*)
+ *(.dynamic)
+                0x0000000000806020                PROVIDE (__CTOR_LIST__, ABSOLUTE (.))
+ *(.ctors)
+ *(SORT(.ctors.*))
+                0x0000000000806020                PROVIDE (__CTOR_END__, ABSOLUTE (.))
+                0x0000000000806020                PROVIDE (__DTOR_LIST__, ABSOLUTE (.))
+ *(.dtors)
+ *(SORT(.dtors.*))
+                0x0000000000806020                PROVIDE (__DTOR_END__, ABSOLUTE (.))
+ *(.jcr)
+                0x0000000000806020                . = ALIGN (0x4)
+
+.rodata         0x0000000000806020      0x2c8
+                0x0000000000806020                PROVIDE (__ram_rodata_start, ABSOLUTE (.))
+                0x0000000000806020                . = ALIGN (0x4)
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata        0x0000000000806020        0xf ../pacemaker_bsp/\libhal_bsp.a(alt_main.o)
+ *fill*         0x000000000080602f        0x1 
+ .rodata        0x0000000000806030       0x26 ../pacemaker_bsp/\libhal_bsp.a(alt_sys_init.o)
+ *fill*         0x0000000000806056        0x2 
+ .rodata        0x0000000000806058        0xa ../pacemaker_bsp/\libhal_bsp.a(alt_dev.o)
+ .rodata._ctype_
+                0x0000000000806062      0x101 c:/intelfpga/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-ctype_.o)
+                0x0000000000806062                _ctype_
+ .rodata._ctype_b
+                0x0000000000806163      0x180 c:/intelfpga/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-ctype_.o)
+ *fill*         0x00000000008062e3        0x1 
+ .rodata.str1.4
+                0x00000000008062e4        0x4 c:/intelfpga/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-impure.o)
+                                          0x2 (size before relaxing)
+ *(.rodata1)
+                0x00000000008062e8                . = ALIGN (0x4)
+                0x00000000008062e8                PROVIDE (__ram_rodata_end, ABSOLUTE (.))
+                0x0000000000806020                PROVIDE (__flash_rodata_start, LOADADDR (.rodata))
+
+.rwdata         0x00000000008062e8     0x1844 load address 0x0000000000807b2c
+                0x00000000008062e8                PROVIDE (__ram_rwdata_start, ABSOLUTE (.))
+                0x00000000008062e8                . = ALIGN (0x4)
+ *(.got.plt)
+ *(.got)
+ *(.data1)
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data          0x00000000008062e8        0x0 ../pacemaker_bsp//obj/HAL/src/crt0.o
+ .data          0x00000000008062e8        0x0 obj/default/main.o
+ .data          0x00000000008062e8        0x0 obj/default/pacemaker.o
+ .data          0x00000000008062e8        0x0 ../pacemaker_bsp/\libhal_bsp.a(alt_alarm_start.o)
+ .data          0x00000000008062e8        0x0 ../pacemaker_bsp/\libhal_bsp.a(alt_load.o)
+ .data          0x00000000008062e8        0x0 ../pacemaker_bsp/\libhal_bsp.a(alt_main.o)
+ .data          0x00000000008062e8        0x0 ../pacemaker_bsp/\libhal_bsp.a(alt_tick.o)
+ .data          0x00000000008062e8     0x1244 ../pacemaker_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .data          0x000000000080752c        0x0 ../pacemaker_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .data          0x000000000080752c        0x0 ../pacemaker_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_init.o)
+ .data          0x000000000080752c        0x0 ../pacemaker_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_ioctl.o)
+ .data          0x000000000080752c        0x0 ../pacemaker_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .data          0x000000000080752c        0x0 ../pacemaker_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .data          0x000000000080752c        0x0 ../pacemaker_bsp/\libhal_bsp.a(altera_avalon_lcd_16207.o)
+ .data          0x000000000080752c        0x0 ../pacemaker_bsp/\libhal_bsp.a(altera_avalon_lcd_16207_fd.o)
+ .data          0x000000000080752c        0x0 ../pacemaker_bsp/\libhal_bsp.a(altera_avalon_timer_sc.o)
+ .data          0x000000000080752c        0x0 ../pacemaker_bsp/\libhal_bsp.a(altera_avalon_uart_fd.o)
+ .data          0x000000000080752c        0x0 ../pacemaker_bsp/\libhal_bsp.a(altera_avalon_uart_init.o)
+ .data          0x000000000080752c        0x0 ../pacemaker_bsp/\libhal_bsp.a(altera_avalon_uart_read.o)
+ .data          0x000000000080752c        0x0 ../pacemaker_bsp/\libhal_bsp.a(altera_avalon_uart_write.o)
+ .data          0x000000000080752c        0x0 ../pacemaker_bsp/\libhal_bsp.a(alt_close.o)
+ .data          0x000000000080752c        0x0 ../pacemaker_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .data          0x000000000080752c      0x1a8 ../pacemaker_bsp/\libhal_bsp.a(alt_dev.o)
+                0x000000000080752c                alt_dev_null
+                0x0000000000807554                alt_fd_list
+ .data          0x00000000008076d4        0x0 ../pacemaker_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .data          0x00000000008076d4        0x0 ../pacemaker_bsp/\libhal_bsp.a(alt_do_ctors.o)
+ .data          0x00000000008076d4        0x0 ../pacemaker_bsp/\libhal_bsp.a(alt_do_dtors.o)
+ .data          0x00000000008076d4        0x0 ../pacemaker_bsp/\libhal_bsp.a(alt_errno.o)
+ .data          0x00000000008076d4        0x0 ../pacemaker_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .data          0x00000000008076d4        0x0 ../pacemaker_bsp/\libhal_bsp.a(alt_iic.o)
+ .data          0x00000000008076d4        0x0 ../pacemaker_bsp/\libhal_bsp.a(alt_iic_isr_register.o)
+ .data          0x00000000008076d4        0x0 ../pacemaker_bsp/\libhal_bsp.a(alt_io_redirect.o)
+ .data          0x00000000008076d4        0x0 ../pacemaker_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ .data          0x00000000008076d4        0x0 ../pacemaker_bsp/\libhal_bsp.a(alt_irq_handler.o)
+ .data          0x00000000008076d4        0x0 ../pacemaker_bsp/\libhal_bsp.a(alt_irq_vars.o)
+ .data          0x00000000008076d4        0x0 ../pacemaker_bsp/\libhal_bsp.a(alt_open.o)
+ .data          0x00000000008076d4        0x0 ../pacemaker_bsp/\libhal_bsp.a(alt_release_fd.o)
+ .data          0x00000000008076d4        0x0 ../pacemaker_bsp/\libhal_bsp.a(alt_usleep.o)
+ .data          0x00000000008076d4        0x0 ../pacemaker_bsp/\libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .data          0x00000000008076d4        0x0 ../pacemaker_bsp/\libhal_bsp.a(alt_busy_sleep.o)
+ .data          0x00000000008076d4        0x0 ../pacemaker_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ .data          0x00000000008076d4        0x0 ../pacemaker_bsp/\libhal_bsp.a(alt_find_dev.o)
+ .data          0x00000000008076d4        0x0 ../pacemaker_bsp/\libhal_bsp.a(alt_find_file.o)
+ .data          0x00000000008076d4        0x0 ../pacemaker_bsp/\libhal_bsp.a(alt_get_fd.o)
+ .data          0x00000000008076d4        0x0 ../pacemaker_bsp/\libhal_bsp.a(alt_icache_flush.o)
+ .data          0x00000000008076d4        0x0 ../pacemaker_bsp/\libhal_bsp.a(alt_instruction_exception_entry.o)
+ .data          0x00000000008076d4        0x0 c:/intelfpga/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-atexit.o)
+ .data          0x00000000008076d4        0x0 c:/intelfpga/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-ctype_.o)
+ .data          0x00000000008076d4        0x0 c:/intelfpga/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-exit.o)
+ .data          0x00000000008076d4        0x0 c:/intelfpga/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-impure.o)
+ .data.impure_data
+                0x00000000008076d4      0x424 c:/intelfpga/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-impure.o)
+ .data          0x0000000000807af8        0x0 c:/intelfpga/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-int_errno.o)
+ .data          0x0000000000807af8        0x0 c:/intelfpga/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memcmp.o)
+ .data          0x0000000000807af8        0x0 c:/intelfpga/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memcpy.o)
+ .data          0x0000000000807af8        0x0 c:/intelfpga/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memset.o)
+ .data          0x0000000000807af8        0x0 c:/intelfpga/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-strlen.o)
+ .data          0x0000000000807af8        0x0 c:/intelfpga/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-__atexit.o)
+ .data          0x0000000000807af8        0x0 c:/intelfpga/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-__call_atexit.o)
+ .data          0x0000000000807af8        0x0 c:/intelfpga/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(lib2-divmod.o)
+ .data          0x0000000000807af8        0x0 ../pacemaker_bsp/\libhal_bsp.a(alt_exit.o)
+                0x000000000080faf8                _gp = ABSOLUTE ((. + 0x8000))
+                [!provide]                        PROVIDE (gp, _gp)
+ *(.rwdata .rwdata.*)
+ *(.sdata .sdata.* .gnu.linkonce.s.*)
+ .sdata         0x0000000000807af8        0x8 ../pacemaker_bsp/\libhal_bsp.a(alt_tick.o)
+                0x0000000000807af8                alt_alarm_list
+ .sdata         0x0000000000807b00        0x4 ../pacemaker_bsp/\libhal_bsp.a(altera_avalon_lcd_16207.o)
+ .sdata         0x0000000000807b04       0x14 ../pacemaker_bsp/\libhal_bsp.a(alt_dev.o)
+                0x0000000000807b04                alt_fs_list
+                0x0000000000807b0c                alt_dev_list
+                0x0000000000807b14                alt_max_fd
+ .sdata         0x0000000000807b18        0x4 ../pacemaker_bsp/\libhal_bsp.a(alt_errno.o)
+                0x0000000000807b18                alt_errno
+ .sdata         0x0000000000807b1c        0x4 ../pacemaker_bsp/\libhal_bsp.a(alt_irq_vars.o)
+                0x0000000000807b1c                alt_priority_mask
+ .sdata.__ctype_ptr__
+                0x0000000000807b20        0x4 c:/intelfpga/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-ctype_.o)
+                0x0000000000807b20                __ctype_ptr__
+ .sdata._global_impure_ptr
+                0x0000000000807b24        0x4 c:/intelfpga/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-impure.o)
+                0x0000000000807b24                _global_impure_ptr
+ .sdata._impure_ptr
+                0x0000000000807b28        0x4 c:/intelfpga/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-impure.o)
+                0x0000000000807b28                _impure_ptr
+ *(.sdata2 .sdata2.* .gnu.linkonce.s2.*)
+                0x0000000000807b2c                . = ALIGN (0x4)
+                0x0000000000807b2c                _edata = ABSOLUTE (.)
+                [!provide]                        PROVIDE (edata, ABSOLUTE (.))
+                0x0000000000807b2c                PROVIDE (__ram_rwdata_end, ABSOLUTE (.))
+                0x0000000000807b2c                PROVIDE (__flash_rwdata_start, LOADADDR (.rwdata))
+
+.bss            0x0000000000809370      0x25c
+                0x0000000000809370                __bss_start = ABSOLUTE (.)
+                [!provide]                        PROVIDE (__sbss_start, ABSOLUTE (.))
+                [!provide]                        PROVIDE (___sbss_start, ABSOLUTE (.))
+ *(.dynsbss)
+ *(.sbss .sbss.* .gnu.linkonce.sb.*)
+ .sbss          0x0000000000809370       0x10 obj/default/main.o
+                0x0000000000809370                VLED1
+                0x0000000000809374                VLED2
+                0x0000000000809378                buttonPressed1
+                0x000000000080937c                buttonPressed2
+ .sbss          0x0000000000809380        0xc obj/default/main.o
+                0x0000000000809380                buttonValue
+                0x0000000000809384                timeCount
+                0x0000000000809388                timerContext
+ .sbss          0x000000000080938c      0x105 obj/default/pacemaker.o
+                0x000000000080938c                _cg42
+                0x000000000080938d                g83
+                0x000000000080938e                g40
+                0x000000000080938f                g91
+                0x0000000000809390                g4
+                0x0000000000809391                g62b
+                0x0000000000809392                g19
+                0x0000000000809394                t_lri
+                0x0000000000809398                g97_fix0
+                0x0000000000809399                g55
+                0x000000000080939a                PRE_g51
+                0x000000000080939b                g27
+                0x000000000080939c                to_lri
+                0x00000000008093a0                g78b
+                0x00000000008093a1                g3
+                0x00000000008093a2                g31b
+                0x00000000008093a3                PRE_g27
+                0x00000000008093a4                g47
+                0x00000000008093a5                g85
+                0x00000000008093a6                g42
+                0x00000000008093a7                LRI_p
+                0x00000000008093a8                g9
+                0x00000000008093a9                _cg7
+                0x00000000008093ac                _PRE_GO
+                0x00000000008093b0                PRE_g3
+                0x00000000008093b4                t_aei
+                0x00000000008093b8                _cg52
+                0x00000000008093b9                g87
+                0x00000000008093ba                g44
+                0x00000000008093bb                g52b
+                0x00000000008093bc                _cg75
+                0x00000000008093bd                _cg8
+                0x00000000008093be                _cg45
+                0x00000000008093bf                g92
+                0x00000000008093c0                g1
+                0x00000000008093c1                g61
+                0x00000000008093c2                g71
+                0x00000000008093c3                LRI
+                0x00000000008093c4                g82
+                0x00000000008093c5                g12
+                0x00000000008093c6                g97
+                0x00000000008093c7                g52
+                0x00000000008093c8                to_uri
+                0x00000000008093cc                _cg85
+                0x00000000008093cd                g17
+                0x00000000008093ce                PRE_g77
+                0x00000000008093cf                g76
+                0x00000000008093d0                g31
+                0x00000000008093d1                g37
+                0x00000000008093d2                g62
+                0x00000000008093d3                g84
+                0x00000000008093d4                g41
+                0x00000000008093d5                g24_e2
+                0x00000000008093d6                AVI_p
+                0x00000000008093d7                _cg34
+                0x00000000008093d8                g18
+                0x00000000008093d9                ap
+                0x00000000008093da                PRE_g10
+                0x00000000008093db                g48
+                0x00000000008093dc                t_vrp
+                0x00000000008093e0                _cg95
+                0x00000000008093e1                g38
+                0x00000000008093e2                g75b
+                0x00000000008093e3                _cg20
+                0x00000000008093e4                g42b
+                0x00000000008093e5                _cg82
+                0x00000000008093e6                URI_p
+                0x00000000008093e7                _cg28
+                0x00000000008093e8                g64
+                0x00000000008093e9                g21
+                0x00000000008093ea                URI
+                0x00000000008093ec                t_avi
+                0x00000000008093f0                _cg68
+                0x00000000008093f1                g79
+                0x00000000008093f2                g34
+                0x00000000008093f3                g5
+                0x00000000008093f4                g94
+                0x00000000008093f5                g49
+                0x00000000008093f6                g2
+                0x00000000008093f7                g7
+                0x00000000008093f8                _cg90
+                0x00000000008093f9                _cg16
+                0x00000000008093fa                g80
+                0x00000000008093fb                AVI
+                0x00000000008093fc                vp_accept
+                0x00000000008093fd                g59
+                0x00000000008093fe                g54
+                0x00000000008093ff                g66
+                0x0000000000809400                g23
+                0x0000000000809404                t_uri
+                0x0000000000809408                g14
+                0x0000000000809409                PRE_g36
+                0x000000000080940a                PRE_g84
+                0x000000000080940b                g56
+                0x000000000080940c                PRE_g18
+                0x000000000080940d                PRE_g6
+                0x000000000080940e                g78
+                0x000000000080940f                g33
+                0x0000000000809410                as
+                0x0000000000809411                g28b
+                0x0000000000809412                PRE_g22
+                0x0000000000809413                g58_e5
+                0x0000000000809414                g35
+                0x0000000000809415                _cg71
+                0x0000000000809416                g15
+                0x0000000000809417                g90
+                0x0000000000809418                _GO
+                0x0000000000809419                PRE_g54
+                0x000000000080941a                g38_e3
+                0x000000000080941b                g63
+                0x000000000080941c                g20
+                0x000000000080941d                g60
+                0x0000000000809420                to_aei
+                0x0000000000809424                g93
+                0x0000000000809425                AEI
+                0x0000000000809426                vs_accept
+                0x0000000000809427                g12_e1
+                0x0000000000809428                g48_e4
+                0x0000000000809429                g86
+                0x000000000080942a                g43
+                0x000000000080942c                to_pvarp
+                0x0000000000809430                _cg65
+                0x0000000000809431                VRP
+                0x0000000000809432                _cg11
+                0x0000000000809433                g36
+                0x0000000000809434                g89
+                0x0000000000809435                g46
+                0x0000000000809436                vs
+                0x0000000000809437                vp
+                0x0000000000809438                g95
+                0x0000000000809439                g50
+                0x000000000080943a                g96
+                0x000000000080943b                g51
+                0x000000000080943c                g96_e8
+                0x000000000080943d                _cg37
+                0x000000000080943e                PRE_g74
+                0x000000000080943f                g86_e7
+                0x0000000000809440                _cg78
+                0x0000000000809444                t_pvarp
+                0x0000000000809448                _cg80
+                0x0000000000809449                PRE_g61
+                0x000000000080944a                ap_accept
+                0x000000000080944b                g13
+                0x000000000080944c                PRE_g41
+                0x000000000080944d                g53
+                0x000000000080944e                g8
+                0x000000000080944f                g57
+                0x0000000000809450                PRE_g89
+                0x0000000000809451                PRE_g44
+                0x0000000000809452                g70
+                0x0000000000809453                _cg47
+                0x0000000000809454                g6
+                0x0000000000809455                _cg93
+                0x0000000000809456                _cg19
+                0x0000000000809457                g72
+                0x0000000000809458                g81
+                0x0000000000809459                g0
+                0x000000000080945a                g75
+                0x000000000080945b                g30
+                0x000000000080945c                PRE_g15
+                0x000000000080945d                g16
+                0x000000000080945e                g58
+                0x000000000080945f                _cg57
+                0x0000000000809460                g68
+                0x0000000000809461                g25
+                0x0000000000809462                g90b
+                0x0000000000809463                g11
+                0x0000000000809464                g65
+                0x0000000000809465                g22
+                0x0000000000809466                g72_e6
+                0x0000000000809467                g28
+                0x0000000000809468                g73
+                0x0000000000809469                AEI_p
+                0x000000000080946a                g16b
+                0x000000000080946b                PVARP
+                0x000000000080946c                g77
+                0x000000000080946d                g32
+                0x0000000000809470                to_avi
+                0x0000000000809474                g88
+                0x0000000000809475                g45
+                0x0000000000809476                _cg23
+                0x0000000000809477                _cg55
+                0x0000000000809478                PRE_g64
+                0x0000000000809479                PRE_g70
+                0x000000000080947a                PRE_g30
+                0x000000000080947b                g39
+                0x000000000080947c                g29
+                0x000000000080947d                _cg4
+                0x000000000080947e                g67
+                0x000000000080947f                g24
+                0x0000000000809480                _cg32
+                0x0000000000809481                PRE_g92
+                0x0000000000809482                g4b
+                0x0000000000809483                _cg67
+                0x0000000000809484                _cg31
+                0x0000000000809485                g10
+                0x0000000000809486                _cg62
+                0x0000000000809487                g69
+                0x0000000000809488                g26
+                0x0000000000809489                as_accept
+                0x000000000080948c                to_vrp
+                0x0000000000809490                g74
+ *fill*         0x0000000000809491        0x3 
+ .sbss          0x0000000000809494        0xc ../pacemaker_bsp/\libhal_bsp.a(alt_main.o)
+                0x0000000000809494                alt_argc
+                0x0000000000809498                alt_argv
+                0x000000000080949c                alt_envp
+ .sbss          0x00000000008094a0        0x8 ../pacemaker_bsp/\libhal_bsp.a(alt_tick.o)
+                0x00000000008094a0                _alt_tick_rate
+                0x00000000008094a4                _alt_nticks
+ .sbss          0x00000000008094a8        0x4 ../pacemaker_bsp/\libhal_bsp.a(alt_irq_vars.o)
+                0x00000000008094a8                alt_irq_active
+ .sbss          0x00000000008094ac        0x4 ../pacemaker_bsp/\libhal_bsp.a(alt_instruction_exception_entry.o)
+                0x00000000008094ac                alt_instruction_exception_handler
+ .sbss          0x00000000008094b0        0x4 c:/intelfpga/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-int_errno.o)
+                0x00000000008094b0                errno
+ *(.sbss2 .sbss2.* .gnu.linkonce.sb2.*)
+ *(.scommon)
+                [!provide]                        PROVIDE (__sbss_end, ABSOLUTE (.))
+                [!provide]                        PROVIDE (___sbss_end, ABSOLUTE (.))
+ *(.dynbss)
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x00000000008094b4        0x0 ../pacemaker_bsp//obj/HAL/src/crt0.o
+ .bss           0x00000000008094b4        0x0 obj/default/main.o
+ .bss           0x00000000008094b4        0x0 obj/default/pacemaker.o
+ .bss           0x00000000008094b4        0x0 ../pacemaker_bsp/\libhal_bsp.a(alt_alarm_start.o)
+ .bss           0x00000000008094b4        0x0 ../pacemaker_bsp/\libhal_bsp.a(alt_load.o)
+ .bss           0x00000000008094b4        0x0 ../pacemaker_bsp/\libhal_bsp.a(alt_main.o)
+ .bss           0x00000000008094b4        0x0 ../pacemaker_bsp/\libhal_bsp.a(alt_tick.o)
+ .bss           0x00000000008094b4        0x0 ../pacemaker_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .bss           0x00000000008094b4        0x0 ../pacemaker_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .bss           0x00000000008094b4        0x0 ../pacemaker_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_init.o)
+ .bss           0x00000000008094b4        0x0 ../pacemaker_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_ioctl.o)
+ .bss           0x00000000008094b4        0x0 ../pacemaker_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .bss           0x00000000008094b4        0x0 ../pacemaker_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .bss           0x00000000008094b4        0x0 ../pacemaker_bsp/\libhal_bsp.a(altera_avalon_lcd_16207.o)
+ .bss           0x00000000008094b4        0x0 ../pacemaker_bsp/\libhal_bsp.a(altera_avalon_lcd_16207_fd.o)
+ .bss           0x00000000008094b4        0x0 ../pacemaker_bsp/\libhal_bsp.a(altera_avalon_timer_sc.o)
+ .bss           0x00000000008094b4        0x0 ../pacemaker_bsp/\libhal_bsp.a(altera_avalon_uart_fd.o)
+ .bss           0x00000000008094b4        0x0 ../pacemaker_bsp/\libhal_bsp.a(altera_avalon_uart_init.o)
+ .bss           0x00000000008094b4        0x0 ../pacemaker_bsp/\libhal_bsp.a(altera_avalon_uart_read.o)
+ .bss           0x00000000008094b4        0x0 ../pacemaker_bsp/\libhal_bsp.a(altera_avalon_uart_write.o)
+ .bss           0x00000000008094b4        0x0 ../pacemaker_bsp/\libhal_bsp.a(alt_close.o)
+ .bss           0x00000000008094b4        0x0 ../pacemaker_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .bss           0x00000000008094b4        0x0 ../pacemaker_bsp/\libhal_bsp.a(alt_dev.o)
+ .bss           0x00000000008094b4        0x0 ../pacemaker_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .bss           0x00000000008094b4        0x0 ../pacemaker_bsp/\libhal_bsp.a(alt_do_ctors.o)
+ .bss           0x00000000008094b4        0x0 ../pacemaker_bsp/\libhal_bsp.a(alt_do_dtors.o)
+ .bss           0x00000000008094b4        0x0 ../pacemaker_bsp/\libhal_bsp.a(alt_errno.o)
+ .bss           0x00000000008094b4        0x0 ../pacemaker_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .bss           0x00000000008094b4        0x0 ../pacemaker_bsp/\libhal_bsp.a(alt_iic.o)
+ .bss           0x00000000008094b4        0x0 ../pacemaker_bsp/\libhal_bsp.a(alt_iic_isr_register.o)
+ .bss           0x00000000008094b4        0x0 ../pacemaker_bsp/\libhal_bsp.a(alt_io_redirect.o)
+ .bss           0x00000000008094b4        0x0 ../pacemaker_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ .bss           0x00000000008094b4        0x0 ../pacemaker_bsp/\libhal_bsp.a(alt_irq_handler.o)
+ .bss           0x00000000008094b4        0x0 ../pacemaker_bsp/\libhal_bsp.a(alt_irq_vars.o)
+ .bss           0x00000000008094b4        0x0 ../pacemaker_bsp/\libhal_bsp.a(alt_open.o)
+ .bss           0x00000000008094b4        0x0 ../pacemaker_bsp/\libhal_bsp.a(alt_release_fd.o)
+ .bss           0x00000000008094b4        0x0 ../pacemaker_bsp/\libhal_bsp.a(alt_usleep.o)
+ .bss           0x00000000008094b4        0x0 ../pacemaker_bsp/\libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .bss           0x00000000008094b4        0x0 ../pacemaker_bsp/\libhal_bsp.a(alt_busy_sleep.o)
+ .bss           0x00000000008094b4        0x0 ../pacemaker_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ .bss           0x00000000008094b4        0x0 ../pacemaker_bsp/\libhal_bsp.a(alt_find_dev.o)
+ .bss           0x00000000008094b4        0x0 ../pacemaker_bsp/\libhal_bsp.a(alt_find_file.o)
+ .bss           0x00000000008094b4        0x0 ../pacemaker_bsp/\libhal_bsp.a(alt_get_fd.o)
+ .bss           0x00000000008094b4        0x0 ../pacemaker_bsp/\libhal_bsp.a(alt_icache_flush.o)
+ .bss           0x00000000008094b4        0x0 ../pacemaker_bsp/\libhal_bsp.a(alt_instruction_exception_entry.o)
+ .bss           0x00000000008094b4        0x0 c:/intelfpga/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-atexit.o)
+ .bss           0x00000000008094b4        0x0 c:/intelfpga/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-ctype_.o)
+ .bss           0x00000000008094b4        0x0 c:/intelfpga/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-exit.o)
+ .bss           0x00000000008094b4        0x0 c:/intelfpga/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-impure.o)
+ .bss           0x00000000008094b4        0x0 c:/intelfpga/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-int_errno.o)
+ .bss           0x00000000008094b4        0x0 c:/intelfpga/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memcmp.o)
+ .bss           0x00000000008094b4        0x0 c:/intelfpga/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memcpy.o)
+ .bss           0x00000000008094b4        0x0 c:/intelfpga/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memset.o)
+ .bss           0x00000000008094b4        0x0 c:/intelfpga/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-strlen.o)
+ .bss           0x00000000008094b4        0x0 c:/intelfpga/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-__atexit.o)
+ .bss           0x00000000008094b4        0x0 c:/intelfpga/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-__call_atexit.o)
+ .bss           0x00000000008094b4        0x0 c:/intelfpga/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(lib2-divmod.o)
+ .bss           0x00000000008094b4        0x0 ../pacemaker_bsp/\libhal_bsp.a(alt_exit.o)
+ *(COMMON)
+ COMMON         0x00000000008094b4       0x18 obj/default/main.o
+                0x00000000008094b4                timer
+ COMMON         0x00000000008094cc      0x100 ../pacemaker_bsp/\libhal_bsp.a(alt_irq_handler.o)
+                0x00000000008094cc                alt_irq
+                0x00000000008095cc                . = ALIGN (0x4)
+                0x00000000008095cc                __bss_end = ABSOLUTE (.)
+
+.sdram          0x00000000008095cc        0x0
+                [!provide]                        PROVIDE (_alt_partition_sdram_start, ABSOLUTE (.))
+ *(.sdram .sdram. sdram.*)
+                0x00000000008095cc                . = ALIGN (0x4)
+                [!provide]                        PROVIDE (_alt_partition_sdram_end, ABSOLUTE (.))
+                0x00000000008095cc                _end = ABSOLUTE (.)
+                0x00000000008095cc                end = ABSOLUTE (.)
+                0x00000000008095cc                __alt_stack_base = ABSOLUTE (.)
+                [!provide]                        PROVIDE (_alt_partition_sdram_load_addr, LOADADDR (.sdram))
+
+.onchip_mem     0x0000000001008000        0x0 load address 0x00000000008095cc
+                [!provide]                        PROVIDE (_alt_partition_onchip_mem_start, ABSOLUTE (.))
+ *(.onchip_mem .onchip_mem. onchip_mem.*)
+                0x0000000001008000                . = ALIGN (0x4)
+                [!provide]                        PROVIDE (_alt_partition_onchip_mem_end, ABSOLUTE (.))
+                [!provide]                        PROVIDE (_alt_partition_onchip_mem_load_addr, LOADADDR (.onchip_mem))
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000       0x23
+ *(.comment)
+ .comment       0x0000000000000000       0x23 obj/default/main.o
+                                         0x24 (size before relaxing)
+ .comment       0x0000000000000023       0x24 obj/default/pacemaker.o
+ .comment       0x0000000000000023       0x24 ../pacemaker_bsp/\libhal_bsp.a(alt_alarm_start.o)
+ .comment       0x0000000000000023       0x24 ../pacemaker_bsp/\libhal_bsp.a(alt_load.o)
+ .comment       0x0000000000000023       0x24 ../pacemaker_bsp/\libhal_bsp.a(alt_main.o)
+ .comment       0x0000000000000023       0x24 ../pacemaker_bsp/\libhal_bsp.a(alt_tick.o)
+ .comment       0x0000000000000023       0x24 ../pacemaker_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .comment       0x0000000000000023       0x24 ../pacemaker_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .comment       0x0000000000000023       0x24 ../pacemaker_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_init.o)
+ .comment       0x0000000000000023       0x24 ../pacemaker_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_ioctl.o)
+ .comment       0x0000000000000023       0x24 ../pacemaker_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .comment       0x0000000000000023       0x24 ../pacemaker_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .comment       0x0000000000000023       0x24 ../pacemaker_bsp/\libhal_bsp.a(altera_avalon_lcd_16207.o)
+ .comment       0x0000000000000023       0x24 ../pacemaker_bsp/\libhal_bsp.a(altera_avalon_lcd_16207_fd.o)
+ .comment       0x0000000000000023       0x24 ../pacemaker_bsp/\libhal_bsp.a(altera_avalon_timer_sc.o)
+ .comment       0x0000000000000023       0x24 ../pacemaker_bsp/\libhal_bsp.a(altera_avalon_uart_fd.o)
+ .comment       0x0000000000000023       0x24 ../pacemaker_bsp/\libhal_bsp.a(altera_avalon_uart_init.o)
+ .comment       0x0000000000000023       0x24 ../pacemaker_bsp/\libhal_bsp.a(altera_avalon_uart_read.o)
+ .comment       0x0000000000000023       0x24 ../pacemaker_bsp/\libhal_bsp.a(altera_avalon_uart_write.o)
+ .comment       0x0000000000000023       0x24 ../pacemaker_bsp/\libhal_bsp.a(alt_close.o)
+ .comment       0x0000000000000023       0x24 ../pacemaker_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .comment       0x0000000000000023       0x24 ../pacemaker_bsp/\libhal_bsp.a(alt_dev.o)
+ .comment       0x0000000000000023       0x24 ../pacemaker_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .comment       0x0000000000000023       0x24 ../pacemaker_bsp/\libhal_bsp.a(alt_do_ctors.o)
+ .comment       0x0000000000000023       0x24 ../pacemaker_bsp/\libhal_bsp.a(alt_do_dtors.o)
+ .comment       0x0000000000000023       0x24 ../pacemaker_bsp/\libhal_bsp.a(alt_errno.o)
+ .comment       0x0000000000000023       0x24 ../pacemaker_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .comment       0x0000000000000023       0x24 ../pacemaker_bsp/\libhal_bsp.a(alt_iic.o)
+ .comment       0x0000000000000023       0x24 ../pacemaker_bsp/\libhal_bsp.a(alt_iic_isr_register.o)
+ .comment       0x0000000000000023       0x24 ../pacemaker_bsp/\libhal_bsp.a(alt_io_redirect.o)
+ .comment       0x0000000000000023       0x24 ../pacemaker_bsp/\libhal_bsp.a(alt_irq_handler.o)
+ .comment       0x0000000000000023       0x24 ../pacemaker_bsp/\libhal_bsp.a(alt_irq_vars.o)
+ .comment       0x0000000000000023       0x24 ../pacemaker_bsp/\libhal_bsp.a(alt_open.o)
+ .comment       0x0000000000000023       0x24 ../pacemaker_bsp/\libhal_bsp.a(alt_release_fd.o)
+ .comment       0x0000000000000023       0x24 ../pacemaker_bsp/\libhal_bsp.a(alt_usleep.o)
+ .comment       0x0000000000000023       0x24 ../pacemaker_bsp/\libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .comment       0x0000000000000023       0x24 ../pacemaker_bsp/\libhal_bsp.a(alt_busy_sleep.o)
+ .comment       0x0000000000000023       0x24 ../pacemaker_bsp/\libhal_bsp.a(alt_find_dev.o)
+ .comment       0x0000000000000023       0x24 ../pacemaker_bsp/\libhal_bsp.a(alt_find_file.o)
+ .comment       0x0000000000000023       0x24 ../pacemaker_bsp/\libhal_bsp.a(alt_get_fd.o)
+ .comment       0x0000000000000023       0x24 ../pacemaker_bsp/\libhal_bsp.a(alt_icache_flush.o)
+ .comment       0x0000000000000023       0x24 ../pacemaker_bsp/\libhal_bsp.a(alt_instruction_exception_entry.o)
+ .comment       0x0000000000000023       0x24 c:/intelfpga/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-atexit.o)
+ .comment       0x0000000000000023       0x24 c:/intelfpga/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-ctype_.o)
+ .comment       0x0000000000000023       0x24 c:/intelfpga/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-exit.o)
+ .comment       0x0000000000000023       0x24 c:/intelfpga/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-impure.o)
+ .comment       0x0000000000000023       0x24 c:/intelfpga/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-int_errno.o)
+ .comment       0x0000000000000023       0x24 c:/intelfpga/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memcmp.o)
+ .comment       0x0000000000000023       0x24 c:/intelfpga/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memcpy.o)
+ .comment       0x0000000000000023       0x24 c:/intelfpga/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memset.o)
+ .comment       0x0000000000000023       0x24 c:/intelfpga/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-strlen.o)
+ .comment       0x0000000000000023       0x24 c:/intelfpga/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-__atexit.o)
+ .comment       0x0000000000000023       0x24 c:/intelfpga/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-__call_atexit.o)
+ .comment       0x0000000000000023       0x24 c:/intelfpga/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(lib2-divmod.o)
+ .comment       0x0000000000000023       0x24 ../pacemaker_bsp/\libhal_bsp.a(alt_exit.o)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x0000000000000000      0x750
+ *(.debug_aranges)
+ .debug_aranges
+                0x0000000000000000       0x28 ../pacemaker_bsp//obj/HAL/src/crt0.o
+ .debug_aranges
+                0x0000000000000028       0x20 obj/default/main.o
+ .debug_aranges
+                0x0000000000000048       0x20 obj/default/pacemaker.o
+ .debug_aranges
+                0x0000000000000068       0x20 ../pacemaker_bsp/\libhal_bsp.a(alt_alarm_start.o)
+ .debug_aranges
+                0x0000000000000088       0x20 ../pacemaker_bsp/\libhal_bsp.a(alt_load.o)
+ .debug_aranges
+                0x00000000000000a8       0x20 ../pacemaker_bsp/\libhal_bsp.a(alt_main.o)
+ .debug_aranges
+                0x00000000000000c8       0x20 ../pacemaker_bsp/\libhal_bsp.a(alt_tick.o)
+ .debug_aranges
+                0x00000000000000e8       0x20 ../pacemaker_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .debug_aranges
+                0x0000000000000108       0x20 ../pacemaker_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .debug_aranges
+                0x0000000000000128       0x20 ../pacemaker_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_init.o)
+ .debug_aranges
+                0x0000000000000148       0x20 ../pacemaker_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_ioctl.o)
+ .debug_aranges
+                0x0000000000000168       0x20 ../pacemaker_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .debug_aranges
+                0x0000000000000188       0x20 ../pacemaker_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .debug_aranges
+                0x00000000000001a8       0x20 ../pacemaker_bsp/\libhal_bsp.a(altera_avalon_lcd_16207.o)
+ .debug_aranges
+                0x00000000000001c8       0x20 ../pacemaker_bsp/\libhal_bsp.a(altera_avalon_lcd_16207_fd.o)
+ .debug_aranges
+                0x00000000000001e8       0x20 ../pacemaker_bsp/\libhal_bsp.a(altera_avalon_timer_sc.o)
+ .debug_aranges
+                0x0000000000000208       0x20 ../pacemaker_bsp/\libhal_bsp.a(altera_avalon_uart_fd.o)
+ .debug_aranges
+                0x0000000000000228       0x20 ../pacemaker_bsp/\libhal_bsp.a(altera_avalon_uart_init.o)
+ .debug_aranges
+                0x0000000000000248       0x20 ../pacemaker_bsp/\libhal_bsp.a(altera_avalon_uart_read.o)
+ .debug_aranges
+                0x0000000000000268       0x20 ../pacemaker_bsp/\libhal_bsp.a(altera_avalon_uart_write.o)
+ .debug_aranges
+                0x0000000000000288       0x20 ../pacemaker_bsp/\libhal_bsp.a(alt_close.o)
+ .debug_aranges
+                0x00000000000002a8       0x20 ../pacemaker_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_aranges
+                0x00000000000002c8       0x20 ../pacemaker_bsp/\libhal_bsp.a(alt_dev.o)
+ .debug_aranges
+                0x00000000000002e8       0x20 ../pacemaker_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .debug_aranges
+                0x0000000000000308       0x20 ../pacemaker_bsp/\libhal_bsp.a(alt_do_ctors.o)
+ .debug_aranges
+                0x0000000000000328       0x20 ../pacemaker_bsp/\libhal_bsp.a(alt_do_dtors.o)
+ .debug_aranges
+                0x0000000000000348       0x18 ../pacemaker_bsp/\libhal_bsp.a(alt_errno.o)
+ .debug_aranges
+                0x0000000000000360       0x20 ../pacemaker_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_aranges
+                0x0000000000000380       0x20 ../pacemaker_bsp/\libhal_bsp.a(alt_iic.o)
+ .debug_aranges
+                0x00000000000003a0       0x20 ../pacemaker_bsp/\libhal_bsp.a(alt_iic_isr_register.o)
+ .debug_aranges
+                0x00000000000003c0       0x20 ../pacemaker_bsp/\libhal_bsp.a(alt_io_redirect.o)
+ .debug_aranges
+                0x00000000000003e0       0x30 ../pacemaker_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ .debug_aranges
+                0x0000000000000410       0x20 ../pacemaker_bsp/\libhal_bsp.a(alt_irq_handler.o)
+ .debug_aranges
+                0x0000000000000430       0x18 ../pacemaker_bsp/\libhal_bsp.a(alt_irq_vars.o)
+ .debug_aranges
+                0x0000000000000448       0x20 ../pacemaker_bsp/\libhal_bsp.a(alt_open.o)
+ .debug_aranges
+                0x0000000000000468       0x20 ../pacemaker_bsp/\libhal_bsp.a(alt_release_fd.o)
+ .debug_aranges
+                0x0000000000000488       0x20 ../pacemaker_bsp/\libhal_bsp.a(alt_usleep.o)
+ .debug_aranges
+                0x00000000000004a8       0x20 ../pacemaker_bsp/\libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .debug_aranges
+                0x00000000000004c8       0x20 ../pacemaker_bsp/\libhal_bsp.a(alt_busy_sleep.o)
+ .debug_aranges
+                0x00000000000004e8       0x38 ../pacemaker_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ .debug_aranges
+                0x0000000000000520       0x20 ../pacemaker_bsp/\libhal_bsp.a(alt_find_dev.o)
+ .debug_aranges
+                0x0000000000000540       0x20 ../pacemaker_bsp/\libhal_bsp.a(alt_find_file.o)
+ .debug_aranges
+                0x0000000000000560       0x20 ../pacemaker_bsp/\libhal_bsp.a(alt_get_fd.o)
+ .debug_aranges
+                0x0000000000000580       0x20 ../pacemaker_bsp/\libhal_bsp.a(alt_icache_flush.o)
+ .debug_aranges
+                0x00000000000005a0       0x28 ../pacemaker_bsp/\libhal_bsp.a(alt_instruction_exception_entry.o)
+ .debug_aranges
+                0x00000000000005c8       0x20 c:/intelfpga/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-atexit.o)
+ .debug_aranges
+                0x00000000000005e8       0x18 c:/intelfpga/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-ctype_.o)
+ .debug_aranges
+                0x0000000000000600       0x20 c:/intelfpga/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-exit.o)
+ .debug_aranges
+                0x0000000000000620       0x18 c:/intelfpga/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-impure.o)
+ .debug_aranges
+                0x0000000000000638       0x18 c:/intelfpga/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-int_errno.o)
+ .debug_aranges
+                0x0000000000000650       0x20 c:/intelfpga/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memcmp.o)
+ .debug_aranges
+                0x0000000000000670       0x20 c:/intelfpga/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memcpy.o)
+ .debug_aranges
+                0x0000000000000690       0x20 c:/intelfpga/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memset.o)
+ .debug_aranges
+                0x00000000000006b0       0x20 c:/intelfpga/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-strlen.o)
+ .debug_aranges
+                0x00000000000006d0       0x20 c:/intelfpga/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-__atexit.o)
+ .debug_aranges
+                0x00000000000006f0       0x20 c:/intelfpga/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-__call_atexit.o)
+ .debug_aranges
+                0x0000000000000710       0x20 c:/intelfpga/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(lib2-divmod.o)
+ .debug_aranges
+                0x0000000000000730       0x20 ../pacemaker_bsp/\libhal_bsp.a(alt_exit.o)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x0000000000000000     0xa906
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x0000000000000000       0x7a ../pacemaker_bsp//obj/HAL/src/crt0.o
+ .debug_info    0x000000000000007a      0x2d8 obj/default/main.o
+ .debug_info    0x0000000000000352      0xdb2 obj/default/pacemaker.o
+ .debug_info    0x0000000000001104      0x2cc ../pacemaker_bsp/\libhal_bsp.a(alt_alarm_start.o)
+ .debug_info    0x00000000000013d0      0x145 ../pacemaker_bsp/\libhal_bsp.a(alt_load.o)
+ .debug_info    0x0000000000001515      0x131 ../pacemaker_bsp/\libhal_bsp.a(alt_main.o)
+ .debug_info    0x0000000000001646      0x299 ../pacemaker_bsp/\libhal_bsp.a(alt_tick.o)
+ .debug_info    0x00000000000018df      0x723 ../pacemaker_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .debug_info    0x0000000000002002      0x52e ../pacemaker_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .debug_info    0x0000000000002530      0x3a0 ../pacemaker_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_init.o)
+ .debug_info    0x00000000000028d0      0x280 ../pacemaker_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_ioctl.o)
+ .debug_info    0x0000000000002b50      0x345 ../pacemaker_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .debug_info    0x0000000000002e95      0x340 ../pacemaker_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .debug_info    0x00000000000031d5      0x6d1 ../pacemaker_bsp/\libhal_bsp.a(altera_avalon_lcd_16207.o)
+ .debug_info    0x00000000000038a6      0x4cc ../pacemaker_bsp/\libhal_bsp.a(altera_avalon_lcd_16207_fd.o)
+ .debug_info    0x0000000000003d72      0x226 ../pacemaker_bsp/\libhal_bsp.a(altera_avalon_timer_sc.o)
+ .debug_info    0x0000000000003f98      0x447 ../pacemaker_bsp/\libhal_bsp.a(altera_avalon_uart_fd.o)
+ .debug_info    0x00000000000043df      0x333 ../pacemaker_bsp/\libhal_bsp.a(altera_avalon_uart_init.o)
+ .debug_info    0x0000000000004712      0x319 ../pacemaker_bsp/\libhal_bsp.a(altera_avalon_uart_read.o)
+ .debug_info    0x0000000000004a2b      0x31e ../pacemaker_bsp/\libhal_bsp.a(altera_avalon_uart_write.o)
+ .debug_info    0x0000000000004d49      0x321 ../pacemaker_bsp/\libhal_bsp.a(alt_close.o)
+ .debug_info    0x000000000000506a       0xa5 ../pacemaker_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_info    0x000000000000510f      0x49c ../pacemaker_bsp/\libhal_bsp.a(alt_dev.o)
+ .debug_info    0x00000000000055ab      0x1a9 ../pacemaker_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .debug_info    0x0000000000005754       0x83 ../pacemaker_bsp/\libhal_bsp.a(alt_do_ctors.o)
+ .debug_info    0x00000000000057d7       0x83 ../pacemaker_bsp/\libhal_bsp.a(alt_do_dtors.o)
+ .debug_info    0x000000000000585a       0xa6 ../pacemaker_bsp/\libhal_bsp.a(alt_errno.o)
+ .debug_info    0x0000000000005900       0x92 ../pacemaker_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_info    0x0000000000005992      0x350 ../pacemaker_bsp/\libhal_bsp.a(alt_iic.o)
+ .debug_info    0x0000000000005ce2      0x1ef ../pacemaker_bsp/\libhal_bsp.a(alt_iic_isr_register.o)
+ .debug_info    0x0000000000005ed1      0x4a5 ../pacemaker_bsp/\libhal_bsp.a(alt_io_redirect.o)
+ .debug_info    0x0000000000006376       0x83 ../pacemaker_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ .debug_info    0x00000000000063f9      0x187 ../pacemaker_bsp/\libhal_bsp.a(alt_irq_handler.o)
+ .debug_info    0x0000000000006580       0x88 ../pacemaker_bsp/\libhal_bsp.a(alt_irq_vars.o)
+ .debug_info    0x0000000000006608      0x3bb ../pacemaker_bsp/\libhal_bsp.a(alt_open.o)
+ .debug_info    0x00000000000069c3      0x2b0 ../pacemaker_bsp/\libhal_bsp.a(alt_release_fd.o)
+ .debug_info    0x0000000000006c73       0xb0 ../pacemaker_bsp/\libhal_bsp.a(alt_usleep.o)
+ .debug_info    0x0000000000006d23       0x92 ../pacemaker_bsp/\libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .debug_info    0x0000000000006db5       0xd7 ../pacemaker_bsp/\libhal_bsp.a(alt_busy_sleep.o)
+ .debug_info    0x0000000000006e8c       0x89 ../pacemaker_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ .debug_info    0x0000000000006f15      0x2e9 ../pacemaker_bsp/\libhal_bsp.a(alt_find_dev.o)
+ .debug_info    0x00000000000071fe      0x2e6 ../pacemaker_bsp/\libhal_bsp.a(alt_find_file.o)
+ .debug_info    0x00000000000074e4      0x310 ../pacemaker_bsp/\libhal_bsp.a(alt_get_fd.o)
+ .debug_info    0x00000000000077f4       0xdc ../pacemaker_bsp/\libhal_bsp.a(alt_icache_flush.o)
+ .debug_info    0x00000000000078d0      0x1e7 ../pacemaker_bsp/\libhal_bsp.a(alt_instruction_exception_entry.o)
+ .debug_info    0x0000000000007ab7       0xfe c:/intelfpga/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-atexit.o)
+ .debug_info    0x0000000000007bb5       0x96 c:/intelfpga/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-ctype_.o)
+ .debug_info    0x0000000000007c4b      0x8e4 c:/intelfpga/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-exit.o)
+ .debug_info    0x000000000000852f      0x8a1 c:/intelfpga/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-impure.o)
+ .debug_info    0x0000000000008dd0       0x8a c:/intelfpga/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-int_errno.o)
+ .debug_info    0x0000000000008e5a      0x11a c:/intelfpga/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memcmp.o)
+ .debug_info    0x0000000000008f74      0x144 c:/intelfpga/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memcpy.o)
+ .debug_info    0x00000000000090b8      0x121 c:/intelfpga/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memset.o)
+ .debug_info    0x00000000000091d9       0xe2 c:/intelfpga/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-strlen.o)
+ .debug_info    0x00000000000092bb      0x934 c:/intelfpga/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-__atexit.o)
+ .debug_info    0x0000000000009bef      0x965 c:/intelfpga/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-__call_atexit.o)
+ .debug_info    0x000000000000a554      0x2c6 c:/intelfpga/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(lib2-divmod.o)
+ .debug_info    0x000000000000a81a       0xec ../pacemaker_bsp/\libhal_bsp.a(alt_exit.o)
+
+.debug_abbrev   0x0000000000000000     0x3774
+ *(.debug_abbrev)
+ .debug_abbrev  0x0000000000000000       0x12 ../pacemaker_bsp//obj/HAL/src/crt0.o
+ .debug_abbrev  0x0000000000000012      0x103 obj/default/main.o
+ .debug_abbrev  0x0000000000000115       0x62 obj/default/pacemaker.o
+ .debug_abbrev  0x0000000000000177      0x162 ../pacemaker_bsp/\libhal_bsp.a(alt_alarm_start.o)
+ .debug_abbrev  0x00000000000002d9       0x9f ../pacemaker_bsp/\libhal_bsp.a(alt_load.o)
+ .debug_abbrev  0x0000000000000378       0xba ../pacemaker_bsp/\libhal_bsp.a(alt_main.o)
+ .debug_abbrev  0x0000000000000432      0x15a ../pacemaker_bsp/\libhal_bsp.a(alt_tick.o)
+ .debug_abbrev  0x000000000000058c      0x19f ../pacemaker_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .debug_abbrev  0x000000000000072b      0x127 ../pacemaker_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .debug_abbrev  0x0000000000000852      0x19e ../pacemaker_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_init.o)
+ .debug_abbrev  0x00000000000009f0      0x111 ../pacemaker_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_ioctl.o)
+ .debug_abbrev  0x0000000000000b01      0x1aa ../pacemaker_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .debug_abbrev  0x0000000000000cab      0x1a8 ../pacemaker_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .debug_abbrev  0x0000000000000e53      0x20f ../pacemaker_bsp/\libhal_bsp.a(altera_avalon_lcd_16207.o)
+ .debug_abbrev  0x0000000000001062      0x125 ../pacemaker_bsp/\libhal_bsp.a(altera_avalon_lcd_16207_fd.o)
+ .debug_abbrev  0x0000000000001187      0x155 ../pacemaker_bsp/\libhal_bsp.a(altera_avalon_timer_sc.o)
+ .debug_abbrev  0x00000000000012dc      0x109 ../pacemaker_bsp/\libhal_bsp.a(altera_avalon_uart_fd.o)
+ .debug_abbrev  0x00000000000013e5      0x178 ../pacemaker_bsp/\libhal_bsp.a(altera_avalon_uart_init.o)
+ .debug_abbrev  0x000000000000155d      0x183 ../pacemaker_bsp/\libhal_bsp.a(altera_avalon_uart_read.o)
+ .debug_abbrev  0x00000000000016e0      0x18a ../pacemaker_bsp/\libhal_bsp.a(altera_avalon_uart_write.o)
+ .debug_abbrev  0x000000000000186a      0x11f ../pacemaker_bsp/\libhal_bsp.a(alt_close.o)
+ .debug_abbrev  0x0000000000001989       0x5a ../pacemaker_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_abbrev  0x00000000000019e3       0xd9 ../pacemaker_bsp/\libhal_bsp.a(alt_dev.o)
+ .debug_abbrev  0x0000000000001abc      0x114 ../pacemaker_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .debug_abbrev  0x0000000000001bd0       0x79 ../pacemaker_bsp/\libhal_bsp.a(alt_do_ctors.o)
+ .debug_abbrev  0x0000000000001c49       0x79 ../pacemaker_bsp/\libhal_bsp.a(alt_do_dtors.o)
+ .debug_abbrev  0x0000000000001cc2       0x5a ../pacemaker_bsp/\libhal_bsp.a(alt_errno.o)
+ .debug_abbrev  0x0000000000001d1c       0x42 ../pacemaker_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_abbrev  0x0000000000001d5e      0x163 ../pacemaker_bsp/\libhal_bsp.a(alt_iic.o)
+ .debug_abbrev  0x0000000000001ec1      0x169 ../pacemaker_bsp/\libhal_bsp.a(alt_iic_isr_register.o)
+ .debug_abbrev  0x000000000000202a      0x114 ../pacemaker_bsp/\libhal_bsp.a(alt_io_redirect.o)
+ .debug_abbrev  0x000000000000213e       0x12 ../pacemaker_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ .debug_abbrev  0x0000000000002150      0x122 ../pacemaker_bsp/\libhal_bsp.a(alt_irq_handler.o)
+ .debug_abbrev  0x0000000000002272       0x40 ../pacemaker_bsp/\libhal_bsp.a(alt_irq_vars.o)
+ .debug_abbrev  0x00000000000022b2      0x148 ../pacemaker_bsp/\libhal_bsp.a(alt_open.o)
+ .debug_abbrev  0x00000000000023fa       0xde ../pacemaker_bsp/\libhal_bsp.a(alt_release_fd.o)
+ .debug_abbrev  0x00000000000024d8       0x60 ../pacemaker_bsp/\libhal_bsp.a(alt_usleep.o)
+ .debug_abbrev  0x0000000000002538       0x42 ../pacemaker_bsp/\libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .debug_abbrev  0x000000000000257a       0x7e ../pacemaker_bsp/\libhal_bsp.a(alt_busy_sleep.o)
+ .debug_abbrev  0x00000000000025f8       0x12 ../pacemaker_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ .debug_abbrev  0x000000000000260a       0xf0 ../pacemaker_bsp/\libhal_bsp.a(alt_find_dev.o)
+ .debug_abbrev  0x00000000000026fa       0xf0 ../pacemaker_bsp/\libhal_bsp.a(alt_find_file.o)
+ .debug_abbrev  0x00000000000027ea      0x10d ../pacemaker_bsp/\libhal_bsp.a(alt_get_fd.o)
+ .debug_abbrev  0x00000000000028f7       0x8c ../pacemaker_bsp/\libhal_bsp.a(alt_icache_flush.o)
+ .debug_abbrev  0x0000000000002983       0xdc ../pacemaker_bsp/\libhal_bsp.a(alt_instruction_exception_entry.o)
+ .debug_abbrev  0x0000000000002a5f       0xaa c:/intelfpga/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-atexit.o)
+ .debug_abbrev  0x0000000000002b09       0x5d c:/intelfpga/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-ctype_.o)
+ .debug_abbrev  0x0000000000002b66      0x1e5 c:/intelfpga/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-exit.o)
+ .debug_abbrev  0x0000000000002d4b      0x18f c:/intelfpga/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-impure.o)
+ .debug_abbrev  0x0000000000002eda       0x37 c:/intelfpga/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-int_errno.o)
+ .debug_abbrev  0x0000000000002f11       0x7f c:/intelfpga/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memcmp.o)
+ .debug_abbrev  0x0000000000002f90       0xa3 c:/intelfpga/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memcpy.o)
+ .debug_abbrev  0x0000000000003033       0xae c:/intelfpga/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memset.o)
+ .debug_abbrev  0x00000000000030e1       0x90 c:/intelfpga/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-strlen.o)
+ .debug_abbrev  0x0000000000003171      0x21e c:/intelfpga/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-__atexit.o)
+ .debug_abbrev  0x000000000000338f      0x22e c:/intelfpga/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-__call_atexit.o)
+ .debug_abbrev  0x00000000000035bd      0x10e c:/intelfpga/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(lib2-divmod.o)
+ .debug_abbrev  0x00000000000036cb       0xa9 ../pacemaker_bsp/\libhal_bsp.a(alt_exit.o)
+
+.debug_line     0x0000000000000000     0x4505
+ *(.debug_line)
+ .debug_line    0x0000000000000000       0x72 ../pacemaker_bsp//obj/HAL/src/crt0.o
+ .debug_line    0x0000000000000072      0x115 obj/default/main.o
+ .debug_line    0x0000000000000187      0xb15 obj/default/pacemaker.o
+ .debug_line    0x0000000000000c9c       0xf9 ../pacemaker_bsp/\libhal_bsp.a(alt_alarm_start.o)
+ .debug_line    0x0000000000000d95       0x8e ../pacemaker_bsp/\libhal_bsp.a(alt_load.o)
+ .debug_line    0x0000000000000e23       0xa4 ../pacemaker_bsp/\libhal_bsp.a(alt_main.o)
+ .debug_line    0x0000000000000ec7       0xff ../pacemaker_bsp/\libhal_bsp.a(alt_tick.o)
+ .debug_line    0x0000000000000fc6      0x1c5 ../pacemaker_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .debug_line    0x000000000000118b      0x12f ../pacemaker_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .debug_line    0x00000000000012ba      0x18b ../pacemaker_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_init.o)
+ .debug_line    0x0000000000001445      0x131 ../pacemaker_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_ioctl.o)
+ .debug_line    0x0000000000001576      0x171 ../pacemaker_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .debug_line    0x00000000000016e7      0x170 ../pacemaker_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .debug_line    0x0000000000001857      0x33e ../pacemaker_bsp/\libhal_bsp.a(altera_avalon_lcd_16207.o)
+ .debug_line    0x0000000000001b95      0x119 ../pacemaker_bsp/\libhal_bsp.a(altera_avalon_lcd_16207_fd.o)
+ .debug_line    0x0000000000001cae       0xfd ../pacemaker_bsp/\libhal_bsp.a(altera_avalon_timer_sc.o)
+ .debug_line    0x0000000000001dab       0xee ../pacemaker_bsp/\libhal_bsp.a(altera_avalon_uart_fd.o)
+ .debug_line    0x0000000000001e99      0x18f ../pacemaker_bsp/\libhal_bsp.a(altera_avalon_uart_init.o)
+ .debug_line    0x0000000000002028      0x17e ../pacemaker_bsp/\libhal_bsp.a(altera_avalon_uart_read.o)
+ .debug_line    0x00000000000021a6      0x165 ../pacemaker_bsp/\libhal_bsp.a(altera_avalon_uart_write.o)
+ .debug_line    0x000000000000230b      0x160 ../pacemaker_bsp/\libhal_bsp.a(alt_close.o)
+ .debug_line    0x000000000000246b       0x61 ../pacemaker_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_line    0x00000000000024cc       0xf3 ../pacemaker_bsp/\libhal_bsp.a(alt_dev.o)
+ .debug_line    0x00000000000025bf       0xcf ../pacemaker_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .debug_line    0x000000000000268e       0x59 ../pacemaker_bsp/\libhal_bsp.a(alt_do_ctors.o)
+ .debug_line    0x00000000000026e7       0x59 ../pacemaker_bsp/\libhal_bsp.a(alt_do_dtors.o)
+ .debug_line    0x0000000000002740       0x51 ../pacemaker_bsp/\libhal_bsp.a(alt_errno.o)
+ .debug_line    0x0000000000002791       0x50 ../pacemaker_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_line    0x00000000000027e1       0xeb ../pacemaker_bsp/\libhal_bsp.a(alt_iic.o)
+ .debug_line    0x00000000000028cc       0xdb ../pacemaker_bsp/\libhal_bsp.a(alt_iic_isr_register.o)
+ .debug_line    0x00000000000029a7      0x12e ../pacemaker_bsp/\libhal_bsp.a(alt_io_redirect.o)
+ .debug_line    0x0000000000002ad5       0x6b ../pacemaker_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ .debug_line    0x0000000000002b40       0xaa ../pacemaker_bsp/\libhal_bsp.a(alt_irq_handler.o)
+ .debug_line    0x0000000000002bea       0x50 ../pacemaker_bsp/\libhal_bsp.a(alt_irq_vars.o)
+ .debug_line    0x0000000000002c3a      0x128 ../pacemaker_bsp/\libhal_bsp.a(alt_open.o)
+ .debug_line    0x0000000000002d62       0xae ../pacemaker_bsp/\libhal_bsp.a(alt_release_fd.o)
+ .debug_line    0x0000000000002e10       0xa8 ../pacemaker_bsp/\libhal_bsp.a(alt_usleep.o)
+ .debug_line    0x0000000000002eb8       0x51 ../pacemaker_bsp/\libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .debug_line    0x0000000000002f09       0xa0 ../pacemaker_bsp/\libhal_bsp.a(alt_busy_sleep.o)
+ .debug_line    0x0000000000002fa9       0xb3 ../pacemaker_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ .debug_line    0x000000000000305c       0xb5 ../pacemaker_bsp/\libhal_bsp.a(alt_find_dev.o)
+ .debug_line    0x0000000000003111       0xd1 ../pacemaker_bsp/\libhal_bsp.a(alt_find_file.o)
+ .debug_line    0x00000000000031e2       0xd4 ../pacemaker_bsp/\libhal_bsp.a(alt_get_fd.o)
+ .debug_line    0x00000000000032b6       0x81 ../pacemaker_bsp/\libhal_bsp.a(alt_icache_flush.o)
+ .debug_line    0x0000000000003337       0xba ../pacemaker_bsp/\libhal_bsp.a(alt_instruction_exception_entry.o)
+ .debug_line    0x00000000000033f1       0xe4 c:/intelfpga/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-atexit.o)
+ .debug_line    0x00000000000034d5       0xc4 c:/intelfpga/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-ctype_.o)
+ .debug_line    0x0000000000003599      0x1f9 c:/intelfpga/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-exit.o)
+ .debug_line    0x0000000000003792      0x15d c:/intelfpga/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-impure.o)
+ .debug_line    0x00000000000038ef       0x5c c:/intelfpga/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-int_errno.o)
+ .debug_line    0x000000000000394b      0x173 c:/intelfpga/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memcmp.o)
+ .debug_line    0x0000000000003abe      0x189 c:/intelfpga/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memcpy.o)
+ .debug_line    0x0000000000003c47      0x18c c:/intelfpga/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memset.o)
+ .debug_line    0x0000000000003dd3      0x16c c:/intelfpga/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-strlen.o)
+ .debug_line    0x0000000000003f3f      0x21c c:/intelfpga/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-__atexit.o)
+ .debug_line    0x000000000000415b      0x237 c:/intelfpga/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-__call_atexit.o)
+ .debug_line    0x0000000000004392      0x102 c:/intelfpga/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(lib2-divmod.o)
+ .debug_line    0x0000000000004494       0x71 ../pacemaker_bsp/\libhal_bsp.a(alt_exit.o)
+
+.debug_frame    0x0000000000000000     0x1020
+ *(.debug_frame)
+ .debug_frame   0x0000000000000000       0x50 obj/default/main.o
+ .debug_frame   0x0000000000000050       0x58 obj/default/pacemaker.o
+ .debug_frame   0x00000000000000a8       0x34 ../pacemaker_bsp/\libhal_bsp.a(alt_alarm_start.o)
+ .debug_frame   0x00000000000000dc       0x5c ../pacemaker_bsp/\libhal_bsp.a(alt_load.o)
+ .debug_frame   0x0000000000000138       0x2c ../pacemaker_bsp/\libhal_bsp.a(alt_main.o)
+ .debug_frame   0x0000000000000164       0x5c ../pacemaker_bsp/\libhal_bsp.a(alt_tick.o)
+ .debug_frame   0x00000000000001c0       0x88 ../pacemaker_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .debug_frame   0x0000000000000248       0xb0 ../pacemaker_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .debug_frame   0x00000000000002f8       0xa4 ../pacemaker_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_init.o)
+ .debug_frame   0x000000000000039c       0x34 ../pacemaker_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_ioctl.o)
+ .debug_frame   0x00000000000003d0       0x38 ../pacemaker_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .debug_frame   0x0000000000000408       0x38 ../pacemaker_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .debug_frame   0x0000000000000440      0x178 ../pacemaker_bsp/\libhal_bsp.a(altera_avalon_lcd_16207.o)
+ .debug_frame   0x00000000000005b8       0x38 ../pacemaker_bsp/\libhal_bsp.a(altera_avalon_lcd_16207_fd.o)
+ .debug_frame   0x00000000000005f0       0x60 ../pacemaker_bsp/\libhal_bsp.a(altera_avalon_timer_sc.o)
+ .debug_frame   0x0000000000000650       0x88 ../pacemaker_bsp/\libhal_bsp.a(altera_avalon_uart_fd.o)
+ .debug_frame   0x00000000000006d8       0xcc ../pacemaker_bsp/\libhal_bsp.a(altera_avalon_uart_init.o)
+ .debug_frame   0x00000000000007a4       0x60 ../pacemaker_bsp/\libhal_bsp.a(altera_avalon_uart_read.o)
+ .debug_frame   0x0000000000000804       0x60 ../pacemaker_bsp/\libhal_bsp.a(altera_avalon_uart_write.o)
+ .debug_frame   0x0000000000000864       0x60 ../pacemaker_bsp/\libhal_bsp.a(alt_close.o)
+ .debug_frame   0x00000000000008c4       0x34 ../pacemaker_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_frame   0x00000000000008f8       0x34 ../pacemaker_bsp/\libhal_bsp.a(alt_dev.o)
+ .debug_frame   0x000000000000092c       0x60 ../pacemaker_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .debug_frame   0x000000000000098c       0x38 ../pacemaker_bsp/\libhal_bsp.a(alt_do_ctors.o)
+ .debug_frame   0x00000000000009c4       0x38 ../pacemaker_bsp/\libhal_bsp.a(alt_do_dtors.o)
+ .debug_frame   0x00000000000009fc       0x38 ../pacemaker_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_frame   0x0000000000000a34       0xa4 ../pacemaker_bsp/\libhal_bsp.a(alt_iic.o)
+ .debug_frame   0x0000000000000ad8       0x38 ../pacemaker_bsp/\libhal_bsp.a(alt_iic_isr_register.o)
+ .debug_frame   0x0000000000000b10       0x60 ../pacemaker_bsp/\libhal_bsp.a(alt_io_redirect.o)
+ .debug_frame   0x0000000000000b70       0x38 ../pacemaker_bsp/\libhal_bsp.a(alt_irq_handler.o)
+ .debug_frame   0x0000000000000ba8       0x84 ../pacemaker_bsp/\libhal_bsp.a(alt_open.o)
+ .debug_frame   0x0000000000000c2c       0x34 ../pacemaker_bsp/\libhal_bsp.a(alt_release_fd.o)
+ .debug_frame   0x0000000000000c60       0x38 ../pacemaker_bsp/\libhal_bsp.a(alt_usleep.o)
+ .debug_frame   0x0000000000000c98       0x34 ../pacemaker_bsp/\libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .debug_frame   0x0000000000000ccc       0x38 ../pacemaker_bsp/\libhal_bsp.a(alt_busy_sleep.o)
+ .debug_frame   0x0000000000000d04       0x38 ../pacemaker_bsp/\libhal_bsp.a(alt_find_dev.o)
+ .debug_frame   0x0000000000000d3c       0x38 ../pacemaker_bsp/\libhal_bsp.a(alt_find_file.o)
+ .debug_frame   0x0000000000000d74       0x34 ../pacemaker_bsp/\libhal_bsp.a(alt_get_fd.o)
+ .debug_frame   0x0000000000000da8       0x34 ../pacemaker_bsp/\libhal_bsp.a(alt_icache_flush.o)
+ .debug_frame   0x0000000000000ddc       0x5c ../pacemaker_bsp/\libhal_bsp.a(alt_instruction_exception_entry.o)
+ .debug_frame   0x0000000000000e38       0x20 c:/intelfpga/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-atexit.o)
+ .debug_frame   0x0000000000000e58       0x28 c:/intelfpga/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-exit.o)
+ .debug_frame   0x0000000000000e80       0x20 c:/intelfpga/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memcmp.o)
+ .debug_frame   0x0000000000000ea0       0x38 c:/intelfpga/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memcpy.o)
+ .debug_frame   0x0000000000000ed8       0x20 c:/intelfpga/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memset.o)
+ .debug_frame   0x0000000000000ef8       0x20 c:/intelfpga/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-strlen.o)
+ .debug_frame   0x0000000000000f18       0x38 c:/intelfpga/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-__atexit.o)
+ .debug_frame   0x0000000000000f50       0x54 c:/intelfpga/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-__call_atexit.o)
+ .debug_frame   0x0000000000000fa4       0x50 c:/intelfpga/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(lib2-divmod.o)
+ .debug_frame   0x0000000000000ff4       0x2c ../pacemaker_bsp/\libhal_bsp.a(alt_exit.o)
+
+.debug_str      0x0000000000000000     0x2590
+ *(.debug_str)
+ .debug_str     0x0000000000000000      0x1e4 obj/default/main.o
+                                        0x24a (size before relaxing)
+ .debug_str     0x00000000000001e4      0x251 obj/default/pacemaker.o
+                                        0x315 (size before relaxing)
+ .debug_str     0x0000000000000435       0xeb ../pacemaker_bsp/\libhal_bsp.a(alt_alarm_start.o)
+                                        0x287 (size before relaxing)
+ .debug_str     0x0000000000000520       0xe9 ../pacemaker_bsp/\libhal_bsp.a(alt_load.o)
+                                        0x21b (size before relaxing)
+ .debug_str     0x0000000000000609       0x51 ../pacemaker_bsp/\libhal_bsp.a(alt_main.o)
+                                        0x1a6 (size before relaxing)
+ .debug_str     0x000000000000065a       0x4a ../pacemaker_bsp/\libhal_bsp.a(alt_tick.o)
+                                        0x25b (size before relaxing)
+ .debug_str     0x00000000000006a4      0x2da ../pacemaker_bsp/\libhal_bsp.a(alt_sys_init.o)
+                                        0x502 (size before relaxing)
+ .debug_str     0x000000000000097e       0xb9 ../pacemaker_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+                                        0x3ad (size before relaxing)
+ .debug_str     0x0000000000000a37       0xbc ../pacemaker_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_init.o)
+                                        0x341 (size before relaxing)
+ .debug_str     0x0000000000000af3       0x4a ../pacemaker_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_ioctl.o)
+                                        0x29c (size before relaxing)
+ .debug_str     0x0000000000000b3d       0x48 ../pacemaker_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+                                        0x2f1 (size before relaxing)
+ .debug_str     0x0000000000000b85       0x4a ../pacemaker_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+                                        0x2f2 (size before relaxing)
+ .debug_str     0x0000000000000bcf      0x1f9 ../pacemaker_bsp/\libhal_bsp.a(altera_avalon_lcd_16207.o)
+                                        0x498 (size before relaxing)
+ .debug_str     0x0000000000000dc8       0x4a ../pacemaker_bsp/\libhal_bsp.a(altera_avalon_lcd_16207_fd.o)
+                                        0x361 (size before relaxing)
+ .debug_str     0x0000000000000e12       0x6d ../pacemaker_bsp/\libhal_bsp.a(altera_avalon_timer_sc.o)
+                                        0x254 (size before relaxing)
+ .debug_str     0x0000000000000e7f       0x77 ../pacemaker_bsp/\libhal_bsp.a(altera_avalon_uart_fd.o)
+                                        0x2fe (size before relaxing)
+ .debug_str     0x0000000000000ef6       0xb1 ../pacemaker_bsp/\libhal_bsp.a(altera_avalon_uart_init.o)
+                                        0x2c0 (size before relaxing)
+ .debug_str     0x0000000000000fa7       0x5d ../pacemaker_bsp/\libhal_bsp.a(altera_avalon_uart_read.o)
+                                        0x2a1 (size before relaxing)
+ .debug_str     0x0000000000001004       0x49 ../pacemaker_bsp/\libhal_bsp.a(altera_avalon_uart_write.o)
+                                        0x295 (size before relaxing)
+ .debug_str     0x000000000000104d       0x2c ../pacemaker_bsp/\libhal_bsp.a(alt_close.o)
+                                        0x214 (size before relaxing)
+ .debug_str     0x0000000000001079       0x34 ../pacemaker_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+                                        0x15e (size before relaxing)
+ .debug_str     0x00000000000010ad      0x120 ../pacemaker_bsp/\libhal_bsp.a(alt_dev.o)
+                                        0x30e (size before relaxing)
+ .debug_str     0x00000000000011cd       0x34 ../pacemaker_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+                                        0x1d5 (size before relaxing)
+ .debug_str     0x0000000000001201       0x48 ../pacemaker_bsp/\libhal_bsp.a(alt_do_ctors.o)
+                                         0xd9 (size before relaxing)
+ .debug_str     0x0000000000001249       0x4c ../pacemaker_bsp/\libhal_bsp.a(alt_do_dtors.o)
+                                         0xd8 (size before relaxing)
+ .debug_str     0x0000000000001295       0x14 ../pacemaker_bsp/\libhal_bsp.a(alt_errno.o)
+                                        0x14e (size before relaxing)
+ .debug_str     0x00000000000012a9       0x34 ../pacemaker_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+                                        0x15e (size before relaxing)
+ .debug_str     0x00000000000012dd       0xbd ../pacemaker_bsp/\libhal_bsp.a(alt_iic.o)
+                                        0x247 (size before relaxing)
+ .debug_str     0x000000000000139a       0x4c ../pacemaker_bsp/\libhal_bsp.a(alt_iic_isr_register.o)
+                                        0x1f1 (size before relaxing)
+ .debug_str     0x00000000000013e6       0x56 ../pacemaker_bsp/\libhal_bsp.a(alt_io_redirect.o)
+                                        0x31f (size before relaxing)
+ .debug_str     0x000000000000143c       0x3a ../pacemaker_bsp/\libhal_bsp.a(alt_irq_handler.o)
+                                        0x1a0 (size before relaxing)
+ .debug_str     0x0000000000001476       0x17 ../pacemaker_bsp/\libhal_bsp.a(alt_irq_vars.o)
+                                        0x143 (size before relaxing)
+ .debug_str     0x000000000000148d       0x2f ../pacemaker_bsp/\libhal_bsp.a(alt_open.o)
+                                        0x254 (size before relaxing)
+ .debug_str     0x00000000000014bc       0x28 ../pacemaker_bsp/\libhal_bsp.a(alt_release_fd.o)
+                                        0x1dc (size before relaxing)
+ .debug_str     0x00000000000014e4       0x27 ../pacemaker_bsp/\libhal_bsp.a(alt_usleep.o)
+                                        0x151 (size before relaxing)
+ .debug_str     0x000000000000150b       0x3b ../pacemaker_bsp/\libhal_bsp.a(altera_nios2_gen2_irq.o)
+                                        0x165 (size before relaxing)
+ .debug_str     0x0000000000001546       0x42 ../pacemaker_bsp/\libhal_bsp.a(alt_busy_sleep.o)
+                                        0x174 (size before relaxing)
+ .debug_str     0x0000000000001588       0x24 ../pacemaker_bsp/\libhal_bsp.a(alt_find_dev.o)
+                                        0x1f5 (size before relaxing)
+ .debug_str     0x00000000000015ac       0x26 ../pacemaker_bsp/\libhal_bsp.a(alt_find_file.o)
+                                        0x203 (size before relaxing)
+ .debug_str     0x00000000000015d2       0x30 ../pacemaker_bsp/\libhal_bsp.a(alt_get_fd.o)
+                                        0x225 (size before relaxing)
+ .debug_str     0x0000000000001602       0x2c ../pacemaker_bsp/\libhal_bsp.a(alt_icache_flush.o)
+                                        0x164 (size before relaxing)
+ .debug_str     0x000000000000162e      0x48b ../pacemaker_bsp/\libhal_bsp.a(alt_instruction_exception_entry.o)
+                                        0x5a9 (size before relaxing)
+ .debug_str     0x0000000000001ab9      0x162 c:/intelfpga/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-atexit.o)
+                                        0x207 (size before relaxing)
+ .debug_str     0x0000000000001c1b       0xcd c:/intelfpga/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-ctype_.o)
+                                        0x149 (size before relaxing)
+ .debug_str     0x0000000000001ce8      0x3ac c:/intelfpga/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-exit.o)
+                                        0x5a4 (size before relaxing)
+ .debug_str     0x0000000000002094       0xc8 c:/intelfpga/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-impure.o)
+                                        0x59b (size before relaxing)
+ .debug_str     0x000000000000215c       0x3c c:/intelfpga/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-int_errno.o)
+                                        0x1c3 (size before relaxing)
+ .debug_str     0x0000000000002198       0xcc c:/intelfpga/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memcmp.o)
+                                        0x1ca (size before relaxing)
+ .debug_str     0x0000000000002264       0x68 c:/intelfpga/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memcpy.o)
+                                        0x1f1 (size before relaxing)
+ .debug_str     0x00000000000022cc       0x4e c:/intelfpga/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memset.o)
+                                        0x1de (size before relaxing)
+ .debug_str     0x000000000000231a       0x41 c:/intelfpga/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-strlen.o)
+                                        0x1dd (size before relaxing)
+ .debug_str     0x000000000000235b       0x3c c:/intelfpga/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-__atexit.o)
+                                        0x5dc (size before relaxing)
+ .debug_str     0x0000000000002397       0x62 c:/intelfpga/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-__call_atexit.o)
+                                        0x5c8 (size before relaxing)
+ .debug_str     0x00000000000023f9      0x16d c:/intelfpga/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(lib2-divmod.o)
+                                        0x1b8 (size before relaxing)
+ .debug_str     0x0000000000002566       0x2a ../pacemaker_bsp/\libhal_bsp.a(alt_exit.o)
+                                        0x15a (size before relaxing)
+
+.debug_loc      0x0000000000000000      0xde4
+ *(.debug_loc)
+ .debug_loc     0x0000000000000000       0x2c c:/intelfpga/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-atexit.o)
+ .debug_loc     0x000000000000002c       0x1e c:/intelfpga/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-exit.o)
+ .debug_loc     0x000000000000004a      0x126 c:/intelfpga/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memcmp.o)
+ .debug_loc     0x0000000000000170      0x266 c:/intelfpga/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memcpy.o)
+ .debug_loc     0x00000000000003d6      0x1a6 c:/intelfpga/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memset.o)
+ .debug_loc     0x000000000000057c       0x47 c:/intelfpga/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-strlen.o)
+ .debug_loc     0x00000000000005c3      0x185 c:/intelfpga/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-__atexit.o)
+ .debug_loc     0x0000000000000748      0x1ce c:/intelfpga/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-__call_atexit.o)
+ .debug_loc     0x0000000000000916      0x4ce c:/intelfpga/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(lib2-divmod.o)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_alt_sim_info
+                0x0000000000000000       0x60
+ *(.debug_alt_sim_info)
+ .debug_alt_sim_info
+                0x0000000000000000       0x30 ../pacemaker_bsp//obj/HAL/src/crt0.o
+ .debug_alt_sim_info
+                0x0000000000000030       0x30 ../pacemaker_bsp/\libhal_bsp.a(alt_busy_sleep.o)
+                0x0000000001000000                __alt_data_end = 0x1000000
+                0x0000000001000000                PROVIDE (__alt_stack_pointer, __alt_data_end)
+                [!provide]                        PROVIDE (__alt_stack_limit, __alt_stack_base)
+                [!provide]                        PROVIDE (__alt_heap_start, end)
+                [!provide]                        PROVIDE (__alt_heap_limit, 0x1000000)
+OUTPUT(pacemaker.elf elf32-littlenios2)
+
+.debug_ranges   0x0000000000000000      0x200
+ .debug_ranges  0x0000000000000000       0x20 ../pacemaker_bsp//obj/HAL/src/crt0.o
+ .debug_ranges  0x0000000000000020       0x30 ../pacemaker_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_init.o)
+ .debug_ranges  0x0000000000000050       0x18 ../pacemaker_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .debug_ranges  0x0000000000000068       0x18 ../pacemaker_bsp/\libhal_bsp.a(altera_avalon_lcd_16207.o)
+ .debug_ranges  0x0000000000000080       0x28 ../pacemaker_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ .debug_ranges  0x00000000000000a8       0x10 ../pacemaker_bsp/\libhal_bsp.a(alt_irq_handler.o)
+ .debug_ranges  0x00000000000000b8       0x30 ../pacemaker_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ .debug_ranges  0x00000000000000e8       0x18 ../pacemaker_bsp/\libhal_bsp.a(alt_instruction_exception_entry.o)
+ .debug_ranges  0x0000000000000100       0x10 c:/intelfpga/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-atexit.o)
+ .debug_ranges  0x0000000000000110       0x10 c:/intelfpga/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-exit.o)
+ .debug_ranges  0x0000000000000120       0x10 c:/intelfpga/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memcmp.o)
+ .debug_ranges  0x0000000000000130       0x10 c:/intelfpga/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memcpy.o)
+ .debug_ranges  0x0000000000000140       0x10 c:/intelfpga/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-memset.o)
+ .debug_ranges  0x0000000000000150       0x10 c:/intelfpga/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-strlen.o)
+ .debug_ranges  0x0000000000000160       0x10 c:/intelfpga/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-__atexit.o)
+ .debug_ranges  0x0000000000000170       0x30 c:/intelfpga/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib\libc.a(lib_a-__call_atexit.o)
+ .debug_ranges  0x00000000000001a0       0x60 c:/intelfpga/16.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0\libgcc.a(lib2-divmod.o)

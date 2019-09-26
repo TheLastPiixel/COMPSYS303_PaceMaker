@@ -33,6 +33,8 @@ char AVI_p;
 char AEI_p;
 char as_accept;
 char vs_accept;
+char ap_accept;
+char vp_accept;
 int t_lri;
 int t_uri;
 int t_avi;
@@ -127,7 +129,6 @@ char g63;
 char g64;
 char PRE_g64;
 char g65;
-char g65b;
 char g66;
 char g67;
 char g68;
@@ -138,34 +139,34 @@ char g71;
 char g72;
 char g73;
 char g74;
+char PRE_g74;
 char g75;
-char PRE_g75;
+char g75b;
 char g76;
-char g76b;
 char g77;
+char PRE_g77;
 char g78;
-char PRE_g78;
+char g78b;
 char g79;
-char g79b;
 char g80;
 char g81;
 char g82;
 char g83;
 char g84;
+char PRE_g84;
 char g85;
 char g86;
-char PRE_g86;
 char g87;
-char g87b;
 char g88;
 char g89;
 char PRE_g89;
 char g90;
+char g90b;
 char g91;
 char g92;
+char PRE_g92;
 char g93;
 char g94;
-char PRE_g94;
 char g95;
 char g96;
 char g97;
@@ -189,26 +190,26 @@ char _cg45;
 char _cg57;
 char _cg52;
 char _cg55;
-char _cg65;
+char _cg67;
 char _cg71;
 char _cg62;
 char _cg68;
-char _cg66;
-char _cg83;
-char _cg76;
-char _cg79;
-char _cg81;
-char _cg87;
+char _cg65;
+char _cg75;
+char _cg85;
+char _cg82;
+char _cg78;
+char _cg80;
 char _cg95;
-char _cg92;
 char _cg90;
+char _cg93;
 char g12_e1;
 char g24_e2;
 char g38_e3;
 char g48_e4;
 char g58_e5;
 char g72_e6;
-char g84_e7;
+char g86_e7;
 char g96_e8;
 char g97_fix0;
 int _PRE_GO;
@@ -231,11 +232,11 @@ void reset(){
    PRE_g61 = 0;
    PRE_g64 = 0;
    PRE_g70 = 0;
-   PRE_g75 = 0;
-   PRE_g78 = 0;
-   PRE_g86 = 0;
+   PRE_g74 = 0;
+   PRE_g77 = 0;
+   PRE_g84 = 0;
    PRE_g89 = 0;
-   PRE_g94 = 0;
+   PRE_g92 = 0;
    return;
 }
 void tick(){
@@ -244,35 +245,32 @@ void tick(){
    }
    {
       g0 = _GO;
-      if(g0){
-         t_lri = 21;
-         t_uri = 15;
-         t_avi = 6;
-         t_pvarp = 9;
-         t_vrp = 6;
-         t_aei = 12;
-      }
       g1 = g0;
       g7 =(PRE_g6);
       _cg7 = 1;
       g11 =(PRE_g10);
       _cg11 = 1;
-      g2 =(g1||(g7&&_cg7)||(g11&&_cg11));
+      g2 =((g7&&_cg7)||g1||(g11&&_cg11));
       if(g2){
          ap = 0;
          as_accept = 0;
+         ap_accept = 0;
       }
+      g59 = g0;
+      g71 =(PRE_g70);
+      _cg71 = 1;
+      g25 = g0;
       g37 =(PRE_g36);
       _cg37 = 1;
-      g25 = g0;
+      g13 = g0;
       g19 =(PRE_g18);
       _cg19 = 1;
-      g13 = g0;
       g23 =(PRE_g22);
       _cg23 = 1;
-      g14 =((g19&&_cg19)||g13||(g23&&_cg23));
+      g14 =(g13||(g19&&_cg19)||(g23&&_cg23));
       if(g14){
          vp = 0;
+         vp_accept = 0;
          vs_accept = 0;
       }
       g49 = g0;
@@ -289,24 +287,19 @@ void tick(){
       if(g56){
          t_vrp++;
       }
-      g85 = g0;
-      if(g85){
+      g87 = g0;
+      g93 =(PRE_g92);
+      _cg93 =(t_uri < to_uri);
+      g95 =(g93&&(!(_cg93)));
+      _cg95 =(t_uri >= to_uri);
+      g88 =(g87||(g95&&_cg95));
+      if(g88){
          URI = 0;
          URI_p = 0;
          t_uri = 0;
       }
-      g90 =(PRE_g89);
-      _cg90 =(t_uri < to_uri);
-      g92 =(g90&&(!(_cg90)));
-      _cg92 =(t_uri >= (to_uri - 1));
-      g93 =(g92&&_cg92);
-      if(g93){
-         URI = 0;
-         URI_p = 1;
-         t_uri = to_uri;
-      }
-      g91 =(g90&&_cg90);
-      if(g91){
+      g94 =(g93&&_cg93);
+      if(g94){
          t_uri++;
       }
       g16 =(PRE_g15);
@@ -315,28 +308,37 @@ void tick(){
       g17 =(g16b&&_cg16);
       if(g17){
          vs_accept = 1;
+         vp = 1;
       }
       g31 =(PRE_g30);
       g31b = g31;
       _cg31 = vs_accept;
-      g26 =((g37&&_cg37)||g25||(g31b&&_cg31));
+      g26 =(g25||(g37&&_cg37)||(g31b&&_cg31));
       if(g26){
          AVI = 0;
          AVI_p = 0;
          t_avi = 0;
       }
       g32 =(g31b&&(!(_cg31)));
-      _cg32 =((t_avi < to_avi)|(t_uri > 0));
+      _cg32 =(t_avi < to_avi);
+      g34 =(g32&&(!(_cg32)));
+      _cg34 =((t_avi >= to_avi)&(t_uri == 0));
+      g35 =(g34&&_cg34);
+      if(g35){
+         AVI = 0;
+         AVI_p = 1;
+         t_avi = 0;
+      }
       g33 =(g32&&_cg32);
       if(g33){
          t_avi++;
       }
-      g39 = g0;
       g45 =(PRE_g44);
       _cg45 =(t_pvarp < to_pvarp);
       g47 =(g45&&(!(_cg45)));
       _cg47 =(t_pvarp >= to_pvarp);
-      g40 =(g39||(g47&&_cg47));
+      g39 = g0;
+      g40 =((g47&&_cg47)||g39);
       if(g40){
          PVARP = 0;
          t_pvarp = 0;
@@ -347,62 +349,55 @@ void tick(){
       }
       g4 =(PRE_g3);
       g4b = g4;
-      _cg4 =(((t_pvarp == 0)&(t_avi == 0))&as);
+      _cg4 =((t_pvarp == 0)&(t_avi == 0)&as);
       g5 =(g4b&&_cg4);
       if(g5){
          as_accept = 1;
+         ap = 1;
       }
       g65 =(PRE_g64);
-      g65b = g65;
-      _cg65 = as_accept;
-      g59 = g0;
-      g71 =(PRE_g70);
-      _cg71 = 1;
-      g60 =((g65b&&_cg65)||g59||(g71&&_cg71));
+      _cg65 =(t_aei < to_aei);
+      g67 =(g65&&(!(_cg65)));
+      _cg67 = as_accept;
+      g60 =(g59||(g71&&_cg71)||(g67&&_cg67));
       if(g60){
          AEI = 0;
          AEI_p = 0;
          t_aei = 0;
       }
-      g66 =(g65b&&(!(_cg65)));
-      _cg66 =(t_aei < to_aei);
-      g68 =(g66&&(!(_cg66)));
-      _cg68 =(t_aei >= to_aei);
+      g68 =(g67&&(!(_cg67)));
+      _cg68 =((t_aei >= to_aei)|as_accept);
       g69 =(g68&&_cg68);
       if(g69){
          AEI = 0;
          AEI_p = 1;
+         t_aei = 0;
       }
       g8 =(g4b&&(!(_cg4)));
       _cg8 = AEI_p;
-      g3 =((g8&&(!(_cg8)))||g2);
+      g3 =(g2||(g8&&(!(_cg8))));
       g6 =(g5||(g7&&(!(_cg7))));
       g9 =(g8&&_cg8);
       if(g9){
+         ap_accept = 1;
          ap = 1;
       }
       g10 =((g11&&(!(_cg11)))||g9);
-      g34 =(g32&&(!(_cg32)));
-      _cg34 =((t_avi >= to_avi)&(t_uri == 0));
-      g35 =(g34&&_cg34);
-      if(g35){
-         AVI = 0;
-         AVI_p = 1;
-      }
       g20 =(g16b&&(!(_cg16)));
       _cg20 = AVI_p;
       g15 =(g14||(g20&&(!(_cg20))));
       g18 =(g17||(g19&&(!(_cg19))));
       g21 =(g20&&_cg20);
       if(g21){
+         vp_accept = 1;
          vp = 1;
       }
       g22 =((g23&&(!(_cg23)))||g21);
       g28 =(PRE_g27);
       g28b = g28;
-      _cg28 =(ap|as_accept);
+      _cg28 =(ap_accept|as_accept);
       g27 =((g28b&&(!(_cg28)))||g26);
-      g29 =((g28b&&_cg28)||g33);
+      g29 =(g33||(g28b&&_cg28));
       if(g29){
          AVI = 1;
       }
@@ -410,89 +405,94 @@ void tick(){
       g36 =(g35||(g37&&(!(_cg37))));
       g42 =(PRE_g41);
       g42b = g42;
-      _cg42 =(vp|vs_accept);
+      _cg42 =(vp_accept|vs_accept);
       g41 =(g40||(g42b&&(!(_cg42))));
       g43 =((g42b&&_cg42)||g46);
       if(g43){
          PVARP = 1;
       }
-      g44 =((g47&&(!(_cg47)))||g43);
+      g44 =(g43||(g47&&(!(_cg47))));
       g52 =(PRE_g51);
       g52b = g52;
-      _cg52 =(vp|vs_accept);
+      _cg52 =(vp_accept|vs_accept);
       g51 =(g50||(g52b&&(!(_cg52))));
-      g53 =((g52b&&_cg52)||g56);
+      g53 =(g56||(g52b&&_cg52));
       if(g53){
          VRP = 1;
       }
-      g54 =((g57&&(!(_cg57)))||g53);
+      g54 =(g53||(g57&&(!(_cg57))));
       g62 =(PRE_g61);
       g62b = g62;
-      _cg62 =(vp|vs_accept);
+      _cg62 =(vp_accept|vs_accept);
       g61 =((g62b&&(!(_cg62)))||g60);
-      g67 =(g66&&_cg66);
-      if(g67){
+      g66 =(g65&&_cg65);
+      if(g66){
          t_aei++;
       }
-      g63 =((g62b&&_cg62)||g67);
+      g63 =((g62b&&_cg62)||g66);
       if(g63){
          AEI = 1;
       }
-      g64 =(g63||(g68&&(!(_cg68))));
-      g70 =(g69||(g71&&(!(_cg71))));
+      g64 =((g68&&(!(_cg68)))||g63);
+      g70 =((g71&&(!(_cg71)))||g69);
       g73 = g0;
-      g79 =(PRE_g78);
-      g79b = g79;
-      _cg79 =(vp|vs_accept);
-      g81 =(g79b&&(!(_cg79)));
-      _cg81 =(t_lri < to_lri);
-      g83 =(g81&&(!(_cg81)));
-      _cg83 =(t_lri >= to_lri);
-      g74 =((g83&&_cg83)||g73);
-      if(g74){
+      if(g73){
          LRI = 0;
          LRI_p = 0;
          t_lri = 0;
       }
-      g76 =(PRE_g75);
-      g76b = g76;
-      _cg76 =(vp|vs_accept);
-      g75 =(g74||(g76b&&(!(_cg76))));
-      g80 =(g79b&&_cg79);
-      if(g80){
-         t_lri = 0;
-      }
-      g82 =(g81&&_cg81);
-      if(g82){
+      g75 =(PRE_g74);
+      g75b = g75;
+      _cg75 =(vp_accept|vs_accept);
+      g74 =((g75b&&(!(_cg75)))||g73);
+      g78 =(PRE_g77);
+      g78b = g78;
+      _cg78 =(vp_accept|vs_accept);
+      g80 =(g78b&&(!(_cg78)));
+      _cg80 =(t_lri < to_lri);
+      g81 =(g80&&_cg80);
+      if(g81){
          t_lri++;
       }
-      g77 =((g76b&&_cg76)||g80||g82);
-      if(g77){
+      g79 =(g78b&&_cg78);
+      if(g79){
+         t_lri = 0;
+      }
+      g85 =(PRE_g84);
+      _cg85 = 1;
+      g76 =((g75b&&_cg75)||g81||g79||(g85&&_cg85));
+      if(g76){
          LRI_p = 0;
          LRI = 1;
       }
-      g78 =(g77||(g83&&(!(_cg83))));
-      g87 =(PRE_g86);
-      g87b = g87;
-      _cg87 =(vp|vs_accept);
-      g86 =((g87b&&(!(_cg87)))||g85);
-      g95 =(PRE_g94);
-      _cg95 = 1;
-      g88 =(g91||(g87b&&_cg87)||(g95&&_cg95));
-      if(g88){
+      g82 =(g80&&(!(_cg80)));
+      _cg82 =(t_lri >= to_lri);
+      g77 =(g76||(g82&&(!(_cg82))));
+      g83 =(g82&&_cg82);
+      if(g83){
+         LRI = 0;
+         LRI_p = 1;
+         t_lri = 0;
+      }
+      g84 =(g83||(g85&&(!(_cg85))));
+      g90 =(PRE_g89);
+      g90b = g90;
+      _cg90 =(vp_accept|vs_accept);
+      g89 =((g90b&&(!(_cg90)))||g88);
+      g91 =(g94||(g90b&&_cg90));
+      if(g91){
          URI = 1;
          URI_p = 0;
       }
-      g89 =((g92&&(!(_cg92)))||g88);
-      g94 =(g93||(g95&&(!(_cg95))));
+      g92 =(g91||(g95&&(!(_cg95))));
       g12_e1 =(!((g4||g7||g11)));
       g24_e2 =(!((g16||g19||g23)));
       g38_e3 =(!((g28||g31||g37)));
       g48_e4 =(!((g42||g45)));
       g58_e5 =(!((g52||g55)));
       g72_e6 =(!((g62||g65||g71)));
-      g84_e7 =(!((g76||g79)));
-      g96_e8 =(!((g87||g90||g95)));
+      g86_e7 =(!((g75||g78||g85)));
+      g96_e8 =(!((g90||g93)));
       g97_fix0 =((g12_e1||g12)&&(g24_e2||g24)&&(g38_e3||g38)&&(g48_e4||g48));
    }
    PRE_g3 = g3;
@@ -511,11 +511,11 @@ void tick(){
    PRE_g61 = g61;
    PRE_g64 = g64;
    PRE_g70 = g70;
-   PRE_g75 = g75;
-   PRE_g78 = g78;
-   PRE_g86 = g86;
+   PRE_g74 = g74;
+   PRE_g77 = g77;
+   PRE_g84 = g84;
    PRE_g89 = g89;
-   PRE_g94 = g94;
+   PRE_g92 = g92;
    _PRE_GO = _GO;
    return;
 }
