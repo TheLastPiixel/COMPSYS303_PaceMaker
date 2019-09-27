@@ -18,6 +18,7 @@
 #include <sys/alt_alarm.h>
 #include <system.h>
 #include <altera_avalon_pio_regs.h>
+#include "altera_avalon_uart_regs.h"
 #include <stdio.h>
 #include "pacemaker.h"
 
@@ -41,12 +42,13 @@
 
 //Variable Declaration
 int VLED1 = 0, VLED2 = 0;
-int timeCount;
+int timeCount, ledTimeCount;
 int buttonPressed1 = 0, buttonPressed2 = 0;
-int buttonValue;
+int buttonValue, buttonValuePrevious;
+int ap_count, vp_count;
 
 void* timerContext;
-alt_alarm timer;
+alt_alarm timer, timer2;
 
 //handler for the timer interrupt
 alt_u32 timer_isr(void* context){
@@ -55,12 +57,29 @@ alt_u32 timer_isr(void* context){
 	return 1;
 }
 
+void tx_char(char string) {
+	IOWR_ALTERA_AVALON_UART_CONTROL(UART_BASE, IORD_ALTERA_AVALON_UART_CONTROL(UART_BASE) & ~0x0800);
+	while((IORD_ALTERA_AVALON_UART_STATUS(UART_BASE) & 0x0800) != 0) {
 
+	};
+	while ((IORD_ALTERA_AVALON_UART_STATUS(UART_BASE) & 0x0040 == 0)) {
 
+	};
+	IOWR_ALTERA_AVALON_UART_TXDATA(UART_BASE, string);
+	IOWR_ALTERA_AVALON_UART_CONTROL(UART_BASE, IORD_ALTERA_AVALON_UART_CONTROL(UART_BASE) | 0x0800);
+}
+
+alt_u32 led_timer_isr(void* context){
+	int *timeCount = (int*) context;
+	(*timeCount)++;
+	return 1;
+}
 
 int main()
 {
 	reset();
+
+
 
 	to_avi = AVI_VALUE;
 	to_lri = LRI_VALUE;
@@ -70,31 +89,40 @@ int main()
 	to_aei = AEI_VALUE;
 
 	timeCount = 0;
+	ledTimeCount = 0;
 	timerContext = (void*) &timeCount;
+
+	ap_count = 0;
+	vp_count = 0;
 
 	alt_alarm_start(&timer, 1, timer_isr, timerContext);
 
 	while(1) {
 
 		VLED1 = 0;
-
+		tx_char('V');
+		buttonValuePrevious = buttonValue;
 		buttonValue = IORD_ALTERA_AVALON_PIO_DATA(KEYS_BASE);
 
-		// Key 1 is pressed
-		if(buttonValue == 6){
-			as = 1;
-			VLED1 = VLED1 + LED0;
-		}else{
-			as = 0;
-		}
+		//if (buttonValuePrevious != buttonValue) {
+			// Key 1 is pressed
+			if(buttonValue == 6){
+				as = 1;
+				VLED1 = VLED1 + LED0;
+				//printf("as\n");
+			}else{
+				as = 0;
+			}
 
-		//Key 2 is pressed
-		if(buttonValue == 5){
-			vs = 1;
-			VLED1 = VLED1 + LED1;
-		}else{
-			vs = 0;
-		}
+			//Key 2 is pressed
+			if(buttonValue == 5){
+				vs = 1;
+				VLED1 = VLED1 + LED1;
+				//printf("vs\n");
+			}else{
+				vs = 0;
+			}
+		//}
 
 		// Every millisecond do this.
 		if(timeCount >= 1){
@@ -104,6 +132,20 @@ int main()
 			VLED2 = 0;
 
 			tick();
+
+			if(ap_count > 0){
+				ap_count--;
+			}
+
+			if(vp_count > 0){
+				vp_count--;
+			}
+
+			//Turns off VS & AS
+			if (as == 1 || vs == 1){
+				as = 0;
+				vs = 0;
+			}
 
 			// Debug RED LEDS.
 			if(AVI == 1){
@@ -129,10 +171,18 @@ int main()
 
 			alt_alarm_start(&timer, 1, timer_isr, timerContext);
 		}
-		if(ap == 1){
+		if(ap == 1 && ap_count == 0){
+			ap_count = 20;
+		}
+
+		if(vp == 1 && vp_count == 0){
+			vp_count = 20;
+		}
+
+		if(ap_count > 0 ){
 			VLED1 = VLED1 + LED6;
 		}
-		if(vp == 1){
+		if(vp_count > 0){
 			VLED1 = VLED1 + LED7;
 		}
 		IOWR_ALTERA_AVALON_PIO_DATA(LEDS_GREEN_BASE, VLED1);

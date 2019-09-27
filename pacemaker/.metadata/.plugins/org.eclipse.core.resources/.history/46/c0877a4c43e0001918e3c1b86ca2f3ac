@@ -1,0 +1,194 @@
+scchart pacemaker {
+  input bool as, vs;
+  output bool ap, vp;
+  
+  input int to_lri, to_uri, to_avi, to_pvarp, to_vrp, to_aei;
+  
+  output bool LRI, URI, AVI, PVARP, VRP, AEI;
+  bool LRI_p, URI_p, AVI_p, AEI_p;
+  
+  bool as_accept, vs_accept, ap_accept, vp_accept;
+  
+  int t_lri, t_uri, t_avi, t_pvarp, t_vrp, t_aei;
+
+// Atrium Sense/Pulse (AS/ AP)
+  region pulse_a:
+
+  initial state off {
+    entry / ap = false;
+    entry / as_accept = false;
+    entry / ap_accept = false;   
+  }
+  --> on_sense with !PVARP & !AVI & !AVI_p & as
+  --> on_pulse with AEI_p & !AVI & !vs;
+
+  state on_sense {
+    entry / as_accept = true;
+    entry / ap = true;
+  }
+  --> off with true;
+  
+  state on_pulse {
+    entry / ap_accept = true;
+    entry / ap = true;
+  }
+  --> off with true;
+
+// Ventricle Sense/Pulse (VP/ VS)
+  region pulse_v:
+
+  initial state off {
+    entry / vp = false;
+    entry / vp_accept = false;
+    entry / vs_accept = false;
+  }
+  --> on_sense with !VRP & vs & !URI
+  --> on_pulse with AVI_p & !URI & !as;
+
+  state on_sense {
+    entry / vs_accept = true;
+    entry / vp = true;
+  }
+  --> off with true;
+  
+  state on_pulse {
+    entry / vp_accept = true;
+    entry / vp = true;
+  }
+  --> off with true;
+
+
+// AVI Timer
+  region avi:
+
+  initial state off {
+    entry / AVI = false;
+    during / AVI_p = false;
+    entry / t_avi = 0;
+  }
+  
+  --> p_on with ap_accept | as_accept;
+  
+  state p_on --> on with true;
+
+  state on {
+    entry / AVI = true
+  }
+  --> off with vs_accept
+  --> on with t_avi < (to_avi - 1) / t_avi ++
+  --> p_off with t_avi >= (to_avi - 1);
+
+  state p_off {
+    entry / AVI = false;
+    entry / AVI_p = true;
+  }
+  --> off with true;
+
+// PVARP Timer
+  region pvarp:
+
+  initial state off {
+    entry / PVARP = false;
+    entry / t_pvarp = 0;
+  }
+  --> p_on with vp_accept | vs_accept;
+  
+  state p_on --> on with true;
+
+  state on {
+    entry / PVARP = true;
+  }
+  --> on with t_pvarp < (to_pvarp - 1) / t_pvarp ++
+  --> off with t_pvarp >= (to_pvarp - 1);
+
+
+// VRP Timer
+  region vrp:
+
+  initial state off {
+    entry / VRP = false;
+    entry / t_vrp = 0;
+  }
+  --> p_on with vp_accept | vs_accept;
+  
+  state p_on --> on with true;
+
+  state on {
+    entry / VRP = true
+  }
+  --> on with t_vrp < (to_vrp - 1) / t_vrp ++
+  --> off with t_vrp >= (to_vrp - 1);
+
+
+// AEI Timer
+  region aei:
+
+  initial state off {
+    entry / AEI = false;
+    during / AEI_p = false;
+    entry / t_aei = 0;
+  }
+  --> p_on with vp_accept | vs_accept;
+  
+  state p_on --> on with true;
+
+  state on {
+    entry / AEI = true
+  }
+  --> on with t_aei < (to_aei - 1) / t_aei ++
+  --> off with as_accept 
+  --> p_off with t_aei >= (to_aei - 1) | as_accept;
+
+  state p_off {
+    entry / AEI = false;
+    entry / AEI_p = true;
+  }
+  --> p_on with as_accept
+  --> off with !as_accept;
+
+// LRI Timer
+  region lri:
+
+  initial state off {
+    entry / LRI = false;
+    entry / LRI_p = false;
+    entry / t_lri = 0;
+  }
+  --> p_on with vp_accept | vs_accept;
+  
+  state p_on --> on with true;
+
+  state on {
+    entry / LRI_p = false;
+    entry / LRI = true;
+  }
+  --> on with vp_accept / t_lri = 0
+  --> on with vs_accept / t_lri = 0
+  --> on with t_lri < (to_lri - 1) / t_lri ++
+  --> p_off with t_lri >= (to_lri - 1);
+  
+  state p_off {
+    entry / LRI = false;
+    entry / LRI_p = true;
+    entry / t_lri = 0;
+  }
+  --> on with vp_accept | vs_accept;
+
+// URI Timer
+  region uri:
+
+  initial state off {
+    during / URI = false;
+    entry / t_uri = 0;
+  }
+  --> p_on with vp_accept | vs_accept;
+  
+  state p_on --> on with true;
+
+  state on {
+    entry / URI = true
+  }
+  --> on with t_uri < (to_uri - 1) / t_uri ++
+  --> off with t_uri >= (to_uri - 1);
+  
+}

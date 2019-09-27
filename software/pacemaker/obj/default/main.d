@@ -5,7 +5,7 @@ obj/default/main.o: main.c ../pacemaker_bsp//HAL/inc/alt_types.h \
  ../pacemaker_bsp/linker.h \
  ../pacemaker_bsp//drivers/inc/altera_avalon_pio_regs.h \
  ../pacemaker_bsp//HAL/inc/io.h ../pacemaker_bsp//HAL/inc/alt_types.h \
- pacemaker.h
+ ../pacemaker_bsp//drivers/inc/altera_avalon_uart_regs.h pacemaker.h
 
 ../pacemaker_bsp//HAL/inc/alt_types.h:
 
@@ -24,5 +24,7 @@ obj/default/main.o: main.c ../pacemaker_bsp//HAL/inc/alt_types.h \
 ../pacemaker_bsp//HAL/inc/io.h:
 
 ../pacemaker_bsp//HAL/inc/alt_types.h:
+
+../pacemaker_bsp//drivers/inc/altera_avalon_uart_regs.h:
 
 pacemaker.h:

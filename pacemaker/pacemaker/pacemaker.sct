@@ -11,7 +11,7 @@ scchart pacemaker {
   
   int t_lri, t_uri, t_avi, t_pvarp, t_vrp, t_aei;
 
-
+// Atrium Sense/Pulse (AS/ AP)
   region pulse_a:
 
   initial state off {
@@ -19,8 +19,8 @@ scchart pacemaker {
     entry / as_accept = false;
     entry / ap_accept = false;   
   }
-  --> on_sense with t_pvarp == 0 & t_avi == 0 & as
-  --> on_pulse with AEI_p;
+  --> on_sense with !PVARP & !AVI & as & !AVI_p
+  --> on_pulse with AEI_p & !AVI & !vs;
 
   state on_sense {
     entry / as_accept = true;
@@ -34,7 +34,7 @@ scchart pacemaker {
   }
   --> off with true;
 
-//Ventricle Pulse (VS)
+// Ventricle Sense/Pulse (VP/ VS)
   region pulse_v:
 
   initial state off {
@@ -42,8 +42,8 @@ scchart pacemaker {
     entry / vp_accept = false;
     entry / vs_accept = false;
   }
-  --> on_sense with t_vrp == 0 & vs & t_uri == 0 
-  --> on_pulse with AVI_p;
+  --> on_sense with !VRP & vs & !URI
+  --> on_pulse with AVI_p & !URI & !as;
 
   state on_sense {
     entry / vs_accept = true;
@@ -58,87 +58,95 @@ scchart pacemaker {
   --> off with true;
 
 
-//AVI Timer
+// AVI Timer
   region avi:
 
   initial state off {
     entry / AVI = false;
-    entry / AVI_p = false;
+    during / AVI_p = false;
     entry / t_avi = 0;
   }
-  --> on with ap_accept | as_accept;
+  
+  --> p_on with ap_accept | as_accept;
+  
+  state p_on --> on with true;
 
   state on {
     entry / AVI = true
   }
   --> off with vs_accept
-  --> on with t_avi < to_avi / t_avi ++
-  --> p_off with t_avi >= to_avi & t_uri == 0;
+  --> on with t_avi < (to_avi - 2) / t_avi ++
+  --> p_off with t_avi >= (to_avi - 2);
 
   state p_off {
-    entry / AVI = false;
+    during / AVI = false;
     entry / AVI_p = true;
-    entry / t_avi = 0;
   }
   --> off with true;
 
-//PVARP Timer
+// PVARP Timer
   region pvarp:
 
   initial state off {
     entry / PVARP = false;
     entry / t_pvarp = 0;
   }
-  --> on with vp_accept | vs_accept;
+  --> p_on with vp_accept | vs_accept;
+  
+  state p_on --> on with true;
 
   state on {
-    entry / PVARP = true
+    entry / PVARP = true;
   }
-  --> on with t_pvarp < to_pvarp / t_pvarp ++
-  --> off with t_pvarp >= to_pvarp;
+  --> on with t_pvarp < (to_pvarp - 1) / t_pvarp ++
+  --> off with t_pvarp >= (to_pvarp - 1);
 
 
-//VRP Timer
+// VRP Timer
   region vrp:
 
   initial state off {
-    entry / VRP = false;
+    during / VRP = false;
     entry / t_vrp = 0;
   }
-  --> on with vp_accept | vs_accept;
+  --> p_on with vp_accept | vs_accept;
+  
+  state p_on --> on with true;
 
   state on {
     entry / VRP = true
   }
-  --> on with t_vrp < to_vrp / t_vrp ++
-  --> off with t_vrp >= to_vrp;
+  --> on with t_vrp < (to_vrp - 2) / t_vrp ++
+  --> off with t_vrp >= (to_vrp - 2);
 
 
-//AEI Timer
+// AEI Timer
   region aei:
 
   initial state off {
     entry / AEI = false;
-    entry / AEI_p = false;
+    during / AEI_p = false;
     entry / t_aei = 0;
   }
-  --> on with vp_accept | vs_accept;
+  --> p_on with vp_accept | vs_accept;
+  
+  state p_on --> on with true;
 
   state on {
     entry / AEI = true
   }
-  --> on with t_aei < to_aei / t_aei ++
-  --> off with as_accept
-  --> p_off with t_aei >= to_aei | as_accept;
+  --> on with t_aei < (to_aei - 1) / t_aei ++
+  --> off with as_accept 
+  --> p_off with t_aei >= (to_aei - 1) | as_accept;
 
   state p_off {
     entry / AEI = false;
     entry / AEI_p = true;
-    entry / t_aei = 0;
   }
-  --> off with true;
+  --> p_on with as_accept
+  --> off with !as_accept;
 
-
+// LRI Timer
   region lri:
 
   initial state off {
@@ -146,15 +154,17 @@ scchart pacemaker {
     entry / LRI_p = false;
     entry / t_lri = 0;
   }
-  --> on with vp_accept | vs_accept;
+  --> p_on with vp_accept | vs_accept;
+  
+  state p_on --> on with true;
 
   state on {
     entry / LRI_p = false;
     entry / LRI = true;
   }
-  --> on with vp_accept | vs_accept / t_lri = 0
-  --> on with t_lri < to_lri / t_lri ++
-  --> p_off with t_lri >= to_lri;
+  --> on with (vp_accept | vs_accept) / t_lri = 0
+  --> on with t_lri < (to_lri - 1) / t_lri ++
+  --> p_off with t_lri >= (to_lri - 1);
   
   state p_off {
     entry / LRI = false;
@@ -163,19 +173,20 @@ scchart pacemaker {
   }
   --> on with true;
 
+// URI Timer
   region uri:
 
   initial state off {
     entry / URI = false;
-    entry / URI_p = false;
     entry / t_uri = 0;
   }
-  --> on with vp_accept | vs_accept;
+  --> p_on with vp_accept | vs_accept;
+  
+  state p_on --> on with true;
 
   state on {
     entry / URI = true
-    entry / URI_p = false;
   }
-  --> on with t_uri < to_uri / t_uri ++
-  --> off with t_uri >= to_uri;
-}
+  --> on with t_uri < (to_uri - 2) / t_uri ++
+  --> off with t_uri >= (to_uri - 2);
+  }
