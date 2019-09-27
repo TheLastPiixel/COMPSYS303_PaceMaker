@@ -11,8 +11,8 @@
 /*                                                                           */
 /* This code is provided under the terms of the Eclipse Public License (EPL).*/
 /*****************************************************************************/
-char as;
 char vs;
+char as;
 char ap;
 char vp;
 int to_lri;
@@ -31,8 +31,8 @@ char LRI_p;
 char URI_p;
 char AVI_p;
 char AEI_p;
-char as_accept;
 char vs_accept;
+char as_accept;
 char ap_accept;
 char vp_accept;
 int t_lri;
@@ -370,10 +370,9 @@ void tick(){
       g2 =(g1||(g11&&_cg11)||(g7&&_cg7));
       if(g2){
          ap = 0;
-         as_accept = 0;
+         vs_accept = 0;
          ap_accept = 0;
       }
-      g25 = g0;
       g13 = g0;
       g19 =(PRE_g18);
       _cg19 = 1;
@@ -383,7 +382,7 @@ void tick(){
       if(g14){
          vp = 0;
          vp_accept = 0;
-         vs_accept = 0;
+         as_accept = 0;
       }
       g75 =(PRE_g74);
       if(g75){
@@ -423,20 +422,25 @@ void tick(){
       }
       g16 =(PRE_g15);
       g16b = g16;
-      _cg16 =((!(VRP))&(!(URI))&vs);
+      _cg16 =((!(VRP))&(!(URI))&as);
       g17 =(g16b&&_cg16);
       if(g17){
-         vs_accept = 1;
+         as_accept = 1;
          vp = 1;
       }
       g41 =(PRE_g40);
       g41b = g41;
-      _cg41 = vs_accept;
+      _cg41 = as_accept;
+      g25 = g0;
       g53 =(PRE_g52);
       _cg53 = 1;
       g54 =(g53&&_cg53);
       if(g54){
          _trig2 = 1;
+      }
+      g50 =(PRE_g49);
+      if(g50){
+         AVI = 0;
       }
       g42 =(g41b&&(!(_cg41)));
       _cg42 =(t_avi < (to_avi - 2));
@@ -448,20 +452,16 @@ void tick(){
          _trig2 = 0;
       }
       g46 = g45;
-      g50 =(PRE_g49);
-      if(g50){
-         AVI = 0;
-      }
-      g47 =(g46||g50);
+      g47 =(g50||g46);
       _cg47 = _trig2;
       g49 =(g47&&(!(_cg47)));
       g48_e1 =(!(g49));
       g48 =(g47&&_cg47);
       g51 = g45;
-      g52 =(g51||(g53&&(!(_cg53))));
+      g52 =((g53&&(!(_cg53)))||g51);
       g54_e2 =(!(g52));
       g55 =((g48_e1||g48)&&(g54_e2||g54)&&(g48||g54));
-      g26 =(g25||(g41b&&_cg41)||g55);
+      g26 =((g41b&&_cg41)||g25||g55);
       if(g26){
          AVI = 0;
          t_avi = 0;
@@ -485,10 +485,10 @@ void tick(){
       if(g31){
          AVI_p = 0;
       }
+      g57 = g0;
       g65 =(PRE_g64);
       _cg65 =(t_pvarp >= (to_pvarp - 1));
-      g57 = g0;
-      g58 =((g65&&_cg65)||g57);
+      g58 =(g57||(g65&&_cg65));
       if(g58){
          PVARP = 0;
          t_pvarp = 0;
@@ -507,15 +507,15 @@ void tick(){
       }
       g4 =(PRE_g3);
       g4b = g4;
-      _cg4 =((!(PVARP))&(!(AVI))&as&(!(AVI_p)));
+      _cg4 =((!(PVARP))&(!(AVI))&vs&(!(AVI_p)));
       g5 =(g4b&&_cg4);
       if(g5){
-         as_accept = 1;
+         vs_accept = 1;
          ap = 1;
       }
       g105 =(PRE_g104);
       g105b = g105;
-      _cg105 = as_accept;
+      _cg105 = vs_accept;
       g106 =(g105b&&(!(_cg105)));
       _cg106 =(t_aei >= (to_aei - 1));
       g107 =(g106&&_cg106);
@@ -524,9 +524,9 @@ void tick(){
          AEI_p = 1;
       }
       g8 =(g4b&&(!(_cg4)));
-      _cg8 =(AEI_p&(!(AVI))&(!(vs)));
-      g3 =((g8&&(!(_cg8)))||g2);
-      g6 =(g5||(g7&&(!(_cg7))));
+      _cg8 =(AEI_p&(!(AVI))&(!(as)));
+      g3 =(g2||(g8&&(!(_cg8))));
+      g6 =((g7&&(!(_cg7)))||g5);
       g9 =(g8&&_cg8);
       if(g9){
          ap_accept = 1;
@@ -534,9 +534,9 @@ void tick(){
       }
       g10 =(g9||(g11&&(!(_cg11))));
       g20 =(g16b&&(!(_cg16)));
-      _cg20 =(AVI_p&(!(URI))&(!(as)));
-      g15 =((g20&&(!(_cg20)))||g14);
-      g18 =(g17||(g19&&(!(_cg19))));
+      _cg20 =(AVI_p&(!(URI))&(!(vs)));
+      g15 =(g14||(g20&&(!(_cg20))));
+      g18 =((g19&&(!(_cg19)))||g17);
       g21 =(g20&&_cg20);
       if(g21){
          vp_accept = 1;
@@ -546,7 +546,7 @@ void tick(){
       g27 = g26;
       g34 =(PRE_g33);
       g34b = g34;
-      _cg34 =(ap_accept|as_accept);
+      _cg34 =(ap_accept|vs_accept);
       g35 =(g34b&&_cg34);
       if(g35){
          _trig = 1;
@@ -564,8 +564,8 @@ void tick(){
       g40 =(g39||(g44&&(!(_cg44))));
       g60 =(PRE_g59);
       g60b = g60;
-      _cg60 =(vp_accept|vs_accept);
-      g59 =(g58||(g60b&&(!(_cg60))));
+      _cg60 =(vp_accept|as_accept);
+      g59 =((g60b&&(!(_cg60)))||g58);
       g61 =((g60b&&_cg60)||(g62&&(!(_cg62))));
       g64 =(g63||(g66&&(!(_cg66))));
       g69 = g0;
@@ -577,7 +577,7 @@ void tick(){
       g71 = g70;
       g78 =(PRE_g77);
       g78b = g78;
-      _cg78 =(vp_accept|vs_accept);
+      _cg78 =(vp_accept|as_accept);
       g79 =(g78b&&_cg78);
       if(g79){
          _trig3 = 1;
@@ -592,14 +592,14 @@ void tick(){
       g79_e2 =(!(g77));
       g80 =((g73_e1||g73)&&(g79_e2||g79)&&(g73||g79));
       g81 =(g80||(g82&&(!(_cg82))));
-      g84 =(g83||(g86&&(!(_cg86))));
+      g84 =((g86&&(!(_cg86)))||g83);
       g89 = g0;
       g109 =(PRE_g108);
       g109b = g109;
-      _cg109 = as_accept;
+      _cg109 = vs_accept;
       g110 =(g109b&&(!(_cg109)));
-      _cg110 =(!(as_accept));
-      g90 =((g105b&&_cg105)||g89||(g110&&_cg110));
+      _cg110 =(!(vs_accept));
+      g90 =((g110&&_cg110)||g89||(g105b&&_cg105));
       if(g90){
          AEI = 0;
          t_aei = 0;
@@ -608,12 +608,12 @@ void tick(){
       g91 = g90;
       g98 =(PRE_g97);
       g98b = g98;
-      _cg98 =(vp_accept|vs_accept);
+      _cg98 =(vp_accept|as_accept);
       g99 =(g98b&&_cg98);
       if(g99){
          _trig4 = 1;
       }
-      g92 =(g91||g95);
+      g92 =(g95||g91);
       _cg92 = _trig4;
       g93 =(g92&&_cg92);
       g94 =(g92&&(!(_cg92)));
@@ -624,7 +624,7 @@ void tick(){
       g100 =((g93_e1||g93)&&(g99_e2||g99)&&(g93||g99));
       g102 =(PRE_g101);
       _cg102 = 1;
-      g101 =(g100||(g109b&&_cg109)||(g102&&(!(_cg102))));
+      g101 =((g102&&(!(_cg102)))||g100||(g109b&&_cg109));
       g111 =(g106&&(!(_cg106)));
       _cg111 =(t_aei < (to_aei - 1));
       g112 =(g111&&_cg111);
@@ -635,7 +635,7 @@ void tick(){
       if(g103){
          AEI = 1;
       }
-      g104 =(g103||(g111&&(!(_cg111))));
+      g104 =((g111&&(!(_cg111)))||g103);
       g108 =((g110&&(!(_cg110)))||g107);
       g114 = g0;
       if(g114){
@@ -645,36 +645,22 @@ void tick(){
       }
       g116 =(PRE_g115);
       g116b = g116;
-      _cg116 =(vp_accept|vs_accept);
+      _cg116 =(vp_accept|as_accept);
       g115 =((g116b&&(!(_cg116)))||g114);
       g118 =(PRE_g117);
       _cg118 = 1;
       g117 =((g116b&&_cg116)||(g118&&(!(_cg118))));
-      g121 =(PRE_g120);
-      g121b = g121;
-      _cg121 = vp;
-      g122 =(g121b&&_cg121);
-      if(g122){
-         t_lri = 0;
-      }
-      g123 =(g121b&&(!(_cg121)));
-      _cg123 =(t_lri >= (to_lri - 2));
-      g135 =(g123&&(!(_cg123)));
-      _cg135 =(t_lri < (to_lri - 2));
-      g136 =(g135&&_cg135);
-      if(g136){
-         t_lri++;
-      }
       g132 =(PRE_g131);
       _cg132 = 1;
       g133 =(g132&&_cg132);
       if(g133){
          _trig5 = 1;
       }
-      g129 =(PRE_g128);
-      if(g129){
-         LRI = 0;
-      }
+      g121 =(PRE_g120);
+      g121b = g121;
+      _cg121 = vp;
+      g123 =(g121b&&(!(_cg121)));
+      _cg123 =(t_lri >= (to_lri - 2));
       g124 =(g123&&_cg123);
       if(g124){
          LRI_p = 1;
@@ -682,23 +668,37 @@ void tick(){
          _trig5 = 0;
       }
       g125 = g124;
-      g126 =(g129||g125);
+      g129 =(PRE_g128);
+      if(g129){
+         LRI = 0;
+      }
+      g126 =(g125||g129);
       _cg126 = _trig5;
       g128 =(g126&&(!(_cg126)));
       g127_e1 =(!(g128));
       g127 =(g126&&_cg126);
       g130 = g124;
-      g131 =(g130||(g132&&(!(_cg132))));
+      g131 =((g132&&(!(_cg132)))||g130);
       g133_e2 =(!(g131));
       g134 =((g127_e1||g127)&&(g133_e2||g133)&&(g127||g133));
-      g119 =(g122||g136||g134||(g118&&_cg118));
+      g122 =(g121b&&_cg121);
+      if(g122){
+         t_lri = 0;
+      }
+      g135 =(g123&&(!(_cg123)));
+      _cg135 =(t_lri < (to_lri - 2));
+      g136 =(g135&&_cg135);
+      if(g136){
+         t_lri++;
+      }
+      g119 =((g118&&_cg118)||g134||g122||g136);
       if(g119){
          LRI_p = 0;
          LRI = 1;
       }
       g120 =(g119||(g135&&(!(_cg135))));
       g138 = g0;
-      g139 =(g138||(g154&&_cg154));
+      g139 =((g154&&_cg154)||g138);
       if(g139){
          t_uri = 0;
          _trig6 = 0;
@@ -706,7 +706,7 @@ void tick(){
       g140 = g139;
       g147 =(PRE_g146);
       g147b = g147;
-      _cg147 =(vp_accept|vs_accept);
+      _cg147 =(vp_accept|as_accept);
       g148 =(g147b&&_cg147);
       if(g148){
          _trig6 = 1;
@@ -716,11 +716,11 @@ void tick(){
       g142 =(g141&&_cg141);
       g143 =(g141&&(!(_cg141)));
       g145 = g139;
-      g146 =(g145||(g147b&&(!(_cg147))));
+      g146 =((g147b&&(!(_cg147)))||g145);
       g142_e1 =(!(g143));
       g148_e2 =(!(g146));
       g149 =((g142_e1||g142)&&(g148_e2||g148)&&(g142||g148));
-      g150 =((g151&&(!(_cg151)))||g149);
+      g150 =(g149||(g151&&(!(_cg151))));
       g153 =(g152||(g155&&(!(_cg155))));
       g12_e1 =(!((g3||g6||g10)));
       g24_e2 =(!((g15||g18||g22)));
